@@ -1,0 +1,1412 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+<meta http-equiv="x-ua-compatible" content="IE=edge"/>
+<title>Test results - Class com.sales.app.server.service.salesboundedcontext.sales.SalesDataTestCase</title>
+<link href="../css/base-style.css" rel="stylesheet" type="text/css"/>
+<link href="../css/style.css" rel="stylesheet" type="text/css"/>
+<script src="../js/report.js" type="text/javascript"></script>
+</head>
+<body>
+<div id="content">
+<h1>Class com.sales.app.server.service.salesboundedcontext.sales.SalesDataTestCase</h1>
+<div class="breadcrumbs">
+<a href="../index.html">all</a> &gt; 
+<a href="../packages/com.sales.app.server.service.salesboundedcontext.sales.html">com.sales.app.server.service.salesboundedcontext.sales</a> &gt; SalesDataTestCase</div>
+<div id="summary">
+<table>
+<tr>
+<td>
+<div class="summaryGroup">
+<table>
+<tr>
+<td>
+<div class="infoBox" id="tests">
+<div class="counter">10</div>
+<p>tests</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="failures">
+<div class="counter">0</div>
+<p>failures</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="ignored">
+<div class="counter">0</div>
+<p>ignored</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="duration">
+<div class="counter">4.845s</div>
+<p>duration</p>
+</div>
+</td>
+</tr>
+</table>
+</div>
+</td>
+<td>
+<div class="infoBox success" id="successRate">
+<div class="percent">100%</div>
+<p>successful</p>
+</div>
+</td>
+</tr>
+</table>
+</div>
+<div id="tabs">
+<ul class="tabLinks">
+<li>
+<a href="#tab0">Tests</a>
+</li>
+<li>
+<a href="#tab1">Standard output</a>
+</li>
+<li>
+<a href="#tab2">Standard error</a>
+</li>
+</ul>
+<div id="tab0" class="tab">
+<h2>Tests</h2>
+<table>
+<thead>
+<tr>
+<th>Test</th>
+<th>Duration</th>
+<th>Result</th>
+</tr>
+</thead>
+<tr>
+<td class="success">test1Save</td>
+<td>2.368s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">test2Update</td>
+<td>0.232s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">test3FindById</td>
+<td>0.015s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">test3findBybrandcode</td>
+<td>0.021s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">test3findBycategoryId</td>
+<td>0.014s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">test3findBychannelId</td>
+<td>0.013s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">test3findBymaterialcode</td>
+<td>0.013s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">test3findByreatilercode</td>
+<td>0.015s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">test5NegativeTesting</td>
+<td>0.091s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">test6Delete</td>
+<td>2.063s</td>
+<td class="success">passed</td>
+</tr>
+</table>
+</div>
+<div id="tab1" class="tab">
+<h2>Standard output</h2>
+<span class="code">
+<pre>Thu Jun 16 05:22:27 UTC 2016|Log Manager Factory|Initialization Process started.....
+Thu Jun 16 05:22:27 UTC 2016|Log Manager|Initialized with Path = [/home/applifire/workspace/salesdemo/src/main/webapp/WEB-INF/conf]
+Thu Jun 16 05:22:27 UTC 2016|Alarm Manager|Initialized with Path = [/home/applifire/workspace/salesdemo/src/main/webapp/WEB-INF/conf]
+Thu Jun 16 05:22:27 UTC 2016|Alarm Manager|Loading Alarms ......
+Thu Jun 16 05:22:27 UTC 2016|Alarm XML Parser|FWA|XML Parsing Complete........ 
+Thu Jun 16 05:22:27 UTC 2016|Alarm File Manager|FWA|Alarm File Status.. [ApplicationFrameworkAlarms.xml]|Version=15|Status=Done 
+Thu Jun 16 05:22:27 UTC 2016|Alarm File Manager|FWA|Alarm Stats = ( BC/AL=4/676 SYS=4/10 [676/0]  TPL=0/0 [0/0]  APP= A.Map=[759]  E.Map EC/RC=[322/67] )
+Thu Jun 16 05:22:27 UTC 2016|Alarm XML Parser|APP|XML Parsing Complete........ 
+Thu Jun 16 05:22:27 UTC 2016|Alarm File Manager|APP|Alarm File Status.. [ApplicationAlarms.xml]|Version=1|Status=Done 
+Thu Jun 16 05:22:27 UTC 2016|Alarm File Manager|APP|Alarm Stats = ( BC/AL=7/1174 SYS=4/10 [676/0]  TPL=0/0 [0/0]  APP=3/6 [498/0]  A.Map=[1021]  E.Map EC/RC=[412/89] )
+Thu Jun 16 05:22:27 UTC 2016|ApplicationAlarmContext| &lt;&gt;&lt;&gt;&lt;&gt;&lt;&gt;&lt;&gt; Create App Alarms ....  &lt;&gt;&lt;&gt;&lt;&gt;&lt;&gt;&lt;&gt; 
+Thu Jun 16 05:22:27 UTC 2016|ApplicationAlarmContext|Alarms are generated ONLY in Development Mode.. 
+Thu Jun 16 05:22:27 UTC 2016|Alarm Manager|APP|Alarm Stats = ( BC/AL=7/1174 SYS=4/10 [676/0]  TPL=0/0 [0/0]  APP=3/6 [498/0]  A.Map=[1021]  E.Map EC/RC=[412/89] )
+Thu Jun 16 05:22:27 UTC 2016|Alarm Manager|Initialized Exception Lookup...
+Thu Jun 16 05:22:27 UTC 2016|Log Manager|Initialize Log Config File ......
+Thu Jun 16 05:22:27 UTC 2016|Pluggable Connectors|Adding Connectors : StandardOutputConnector isEnabled=true isDefault=false isFallBack=true
+Thu Jun 16 05:22:27 UTC 2016|Pluggable Connectors|Adding Connectors : StandardFileConnector isEnabled=true isDefault=false isFallBack=false
+Thu Jun 16 05:22:27 UTC 2016|Pluggable Connectors|Adding Connectors : Sprinkler isEnabled=true isDefault=true isFallBack=false
+Thu Jun 16 05:22:27 UTC 2016|Pluggable Connectors|Default Connector Name : com.spartan.logger.core.LogMessenger
+Thu Jun 16 05:22:27 UTC 2016|Log Config Parser|Connector Least Log Level =[4]  FallBack Log Level =[3]
+Thu Jun 16 05:22:27 UTC 2016|Log Manager|Loading Default Connector for Logging ......
+Thu Jun 16 05:22:27 UTC 2016|Log Manager|Loading class .. com.spartan.logger.core.LogMessenger
+Thu Jun 16 05:22:27 UTC 2016|Plugggable Connector|Connector class com.spartan.logger.core.LogMessenger Initialized... @ Log Level = 3
+Thu Jun 16 05:22:27 UTC 2016|Log Manager|Starting the Default Connector [com.spartan.logger.core.LogMessenger@cec6170] ....
+Thu Jun 16 05:22:27 UTC 2016|Scheduler|Starting the Scheduler ......
+Thu Jun 16 05:22:27 UTC 2016|Scheduler|Adding [LMID=[96027fc7-c163-4d43-935a-70aaabfd668d]] Delay=5 Time Unit=MINUTES
+Thu Jun 16 05:22:27 UTC 2016|Scheduler|Adding [App Alarm Manager File=[ApplicationAlarms.xml]] Delay=30 Time Unit=MINUTES
+Thu Jun 16 05:22:27 UTC 2016|Scheduler|Adding [FW Alarm Manager File=[ApplicationFrameworkAlarms.xml]] Delay=3 Time Unit=MINUTES
+Thu Jun 16 05:22:27 UTC 2016|Scheduler|Startup Completed..
+Thu Jun 16 05:22:27 UTC 2016|Log Manager|Initialization Process Complete ......
+Thu Jun 16 05:22:27 UTC 2016|Log Manager Factory|Log Manager READY! ID = 96027fc7-c163-4d43-935a-70aaabfd668d
+[EL Finer]: connection: 2016-06-16 05:22:27.731--ServerSession(166674373)--Thread(Thread[Test worker,5,main])--client acquired: 1682218982
+[EL Finer]: transaction: 2016-06-16 05:22:27.731--ClientSession(1682218982)--Thread(Thread[Test worker,5,main])--acquire unit of work: 1432217719
+[EL Finest]: connection: 2016-06-16 05:22:27.731--ServerSession(166674373)--Connection(139004010)--Thread(Thread[Test worker,5,main])--Connection acquired from connection pool [default].
+[EL Finer]: transaction: 2016-06-16 05:22:27.731--ClientSession(1682218982)--Connection(139004010)--Thread(Thread[Test worker,5,main])--begin transaction
+[EL Finest]: connection: 2016-06-16 05:22:27.731--ClientSession(1682218982)--Thread(Thread[Test worker,5,main])--reconnecting to external connection pool
+[EL Finest]: transaction: 2016-06-16 05:22:27.734--UnitOfWork(1432217719)--Thread(Thread[Test worker,5,main])--persist() operation called on: SUjycrVqD3uSUKaLTTccVgcDvspvAErU5050osrv5h4ugSCq48.
+[EL Finest]: sequencing: 2016-06-16 05:22:27.734--UnitOfWork(1432217719)--Thread(Thread[Test worker,5,main])--assign sequence to the object (148B3C5C-1CE8-482C-87C0-A05669F98C3C -&gt; SUjycrVqD3uSUKaLTTccVgcDvspvAErU5050osrv5h4ugSCq48)
+[EL Finer]: transaction: 2016-06-16 05:22:27.734--UnitOfWork(1432217719)--Thread(Thread[Test worker,5,main])--begin unit of work commit
+[EL Finest]: query: 2016-06-16 05:22:27.735--UnitOfWork(1432217719)--Thread(Thread[Test worker,5,main])--Execute query InsertObjectQuery(SUjycrVqD3uSUKaLTTccVgcDvspvAErU5050osrv5h4ugSCq48)
+[EL Fine]: sql: 2016-06-16 05:22:27.735--ClientSession(1682218982)--Connection(837253402)--Thread(Thread[Test worker,5,main])--INSERT INTO ast_Category_M (categoryId, categoryInformation, versionId, createdBy, createdDate, updatedBy, updatedDate, activeStatus, txnAccessCode) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?)
+	bind =&gt; [148B3C5C-1CE8-482C-87C0-A05669F98C3C, SUjycrVqD3uSUKaLTTccVgcDvspvAErU5050osrv5h4ugSCq48, 1, AAAAA, 2016-06-16 05:22:27.73, AAAAA, 2016-06-16 05:22:27.73, 1, 51000]
+[EL Finer]: transaction: 2016-06-16 05:22:27.736--ClientSession(1682218982)--Connection(837253402)--Thread(Thread[Test worker,5,main])--commit transaction
+[EL Finest]: connection: 2016-06-16 05:22:28.237--ServerSession(166674373)--Connection(139004010)--Thread(Thread[Test worker,5,main])--Connection released to connection pool [default].
+[EL Finer]: transaction: 2016-06-16 05:22:28.237--UnitOfWork(1432217719)--Thread(Thread[Test worker,5,main])--end unit of work commit
+[EL Finer]: transaction: 2016-06-16 05:22:28.237--UnitOfWork(1432217719)--Thread(Thread[Test worker,5,main])--resume unit of work
+[EL Finer]: transaction: 2016-06-16 05:22:28.237--UnitOfWork(1432217719)--Thread(Thread[Test worker,5,main])--release unit of work
+[EL Finer]: connection: 2016-06-16 05:22:28.237--ClientSession(1682218982)--Thread(Thread[Test worker,5,main])--client released
+[EL Finer]: connection: 2016-06-16 05:22:28.238--ServerSession(166674373)--Thread(Thread[Test worker,5,main])--client acquired: 2097416170
+[EL Finer]: transaction: 2016-06-16 05:22:28.238--ClientSession(2097416170)--Thread(Thread[Test worker,5,main])--acquire unit of work: 329503685
+[EL Finest]: connection: 2016-06-16 05:22:28.238--ServerSession(166674373)--Connection(1755591829)--Thread(Thread[Test worker,5,main])--Connection acquired from connection pool [default].
+[EL Finer]: transaction: 2016-06-16 05:22:28.238--ClientSession(2097416170)--Connection(1755591829)--Thread(Thread[Test worker,5,main])--begin transaction
+[EL Finest]: connection: 2016-06-16 05:22:28.238--ClientSession(2097416170)--Thread(Thread[Test worker,5,main])--reconnecting to external connection pool
+[EL Finest]: transaction: 2016-06-16 05:22:28.241--UnitOfWork(329503685)--Thread(Thread[Test worker,5,main])--persist() operation called on: UYECw0kGL2M6dxKNV9JHFHz5BhQEOC95PtrtpXdZwbCaLLMGQ3.
+[EL Finest]: sequencing: 2016-06-16 05:22:28.241--UnitOfWork(329503685)--Thread(Thread[Test worker,5,main])--assign sequence to the object (3226B985-7B16-4BE5-839E-1215CC4AA8DA -&gt; UYECw0kGL2M6dxKNV9JHFHz5BhQEOC95PtrtpXdZwbCaLLMGQ3)
+[EL Finer]: transaction: 2016-06-16 05:22:28.242--UnitOfWork(329503685)--Thread(Thread[Test worker,5,main])--begin unit of work commit
+[EL Finest]: query: 2016-06-16 05:22:28.242--UnitOfWork(329503685)--Thread(Thread[Test worker,5,main])--Execute query InsertObjectQuery(UYECw0kGL2M6dxKNV9JHFHz5BhQEOC95PtrtpXdZwbCaLLMGQ3)
+[EL Fine]: sql: 2016-06-16 05:22:28.242--ClientSession(2097416170)--Connection(1193623474)--Thread(Thread[Test worker,5,main])--INSERT INTO ast_Brand_M (brandcode, branddesc, categoryId, versionId, createdBy, createdDate, updatedBy, updatedDate, activeStatus, txnAccessCode) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
+	bind =&gt; [3226B985-7B16-4BE5-839E-1215CC4AA8DA, UYECw0kGL2M6dxKNV9JHFHz5BhQEOC95PtrtpXdZwbCaLLMGQ3, 148B3C5C-1CE8-482C-87C0-A05669F98C3C, 1, AAAAA, 2016-06-16 05:22:27.73, AAAAA, 2016-06-16 05:22:27.73, 1, 51000]
+[EL Finer]: transaction: 2016-06-16 05:22:28.244--ClientSession(2097416170)--Connection(1193623474)--Thread(Thread[Test worker,5,main])--commit transaction
+[EL Finest]: connection: 2016-06-16 05:22:28.602--ServerSession(166674373)--Connection(1755591829)--Thread(Thread[Test worker,5,main])--Connection released to connection pool [default].
+[EL Finer]: transaction: 2016-06-16 05:22:28.602--UnitOfWork(329503685)--Thread(Thread[Test worker,5,main])--end unit of work commit
+[EL Finer]: transaction: 2016-06-16 05:22:28.602--UnitOfWork(329503685)--Thread(Thread[Test worker,5,main])--resume unit of work
+[EL Finer]: transaction: 2016-06-16 05:22:28.603--UnitOfWork(329503685)--Thread(Thread[Test worker,5,main])--release unit of work
+[EL Finer]: connection: 2016-06-16 05:22:28.603--ClientSession(2097416170)--Thread(Thread[Test worker,5,main])--client released
+[EL Finer]: connection: 2016-06-16 05:22:28.604--ServerSession(166674373)--Thread(Thread[Test worker,5,main])--client acquired: 1617691260
+[EL Finer]: transaction: 2016-06-16 05:22:28.604--ClientSession(1617691260)--Thread(Thread[Test worker,5,main])--acquire unit of work: 1394035800
+[EL Finest]: connection: 2016-06-16 05:22:28.604--ServerSession(166674373)--Connection(513101830)--Thread(Thread[Test worker,5,main])--Connection acquired from connection pool [default].
+[EL Finer]: transaction: 2016-06-16 05:22:28.604--ClientSession(1617691260)--Connection(513101830)--Thread(Thread[Test worker,5,main])--begin transaction
+[EL Finest]: connection: 2016-06-16 05:22:28.604--ClientSession(1617691260)--Thread(Thread[Test worker,5,main])--reconnecting to external connection pool
+[EL Finest]: transaction: 2016-06-16 05:22:28.608--UnitOfWork(1394035800)--Thread(Thread[Test worker,5,main])--persist() operation called on: DNq3seMF5UGZ5ARlZz1wNkHLsHTBnKuKChVa04uoaeOzGphJ2b.
+[EL Finest]: sequencing: 2016-06-16 05:22:28.609--UnitOfWork(1394035800)--Thread(Thread[Test worker,5,main])--assign sequence to the object (E3592152-F9A1-4767-BD6B-5FF8BFEE0E71 -&gt; DNq3seMF5UGZ5ARlZz1wNkHLsHTBnKuKChVa04uoaeOzGphJ2b)
+[EL Finer]: transaction: 2016-06-16 05:22:28.609--UnitOfWork(1394035800)--Thread(Thread[Test worker,5,main])--begin unit of work commit
+[EL Finest]: query: 2016-06-16 05:22:28.61--UnitOfWork(1394035800)--Thread(Thread[Test worker,5,main])--Execute query InsertObjectQuery(DNq3seMF5UGZ5ARlZz1wNkHLsHTBnKuKChVa04uoaeOzGphJ2b)
+[EL Fine]: sql: 2016-06-16 05:22:28.61--ClientSession(1617691260)--Connection(1175889724)--Thread(Thread[Test worker,5,main])--INSERT INTO ast_Material_M (materialcode, brandcode, materialdesc, versionId, createdBy, createdDate, updatedBy, updatedDate, activeStatus, txnAccessCode) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
+	bind =&gt; [E3592152-F9A1-4767-BD6B-5FF8BFEE0E71, 3226B985-7B16-4BE5-839E-1215CC4AA8DA, DNq3seMF5UGZ5ARlZz1wNkHLsHTBnKuKChVa04uoaeOzGphJ2b, 1, AAAAA, 2016-06-16 05:22:27.73, AAAAA, 2016-06-16 05:22:27.73, 1, 51000]
+[EL Finer]: transaction: 2016-06-16 05:22:28.612--ClientSession(1617691260)--Connection(1175889724)--Thread(Thread[Test worker,5,main])--commit transaction
+[EL Finest]: connection: 2016-06-16 05:22:28.651--ServerSession(166674373)--Connection(513101830)--Thread(Thread[Test worker,5,main])--Connection released to connection pool [default].
+[EL Finer]: transaction: 2016-06-16 05:22:28.652--UnitOfWork(1394035800)--Thread(Thread[Test worker,5,main])--end unit of work commit
+[EL Finer]: transaction: 2016-06-16 05:22:28.652--UnitOfWork(1394035800)--Thread(Thread[Test worker,5,main])--resume unit of work
+[EL Finer]: transaction: 2016-06-16 05:22:28.652--UnitOfWork(1394035800)--Thread(Thread[Test worker,5,main])--release unit of work
+[EL Finer]: connection: 2016-06-16 05:22:28.652--ClientSession(1617691260)--Thread(Thread[Test worker,5,main])--client released
+[EL Finer]: connection: 2016-06-16 05:22:28.653--ServerSession(166674373)--Thread(Thread[Test worker,5,main])--client acquired: 1625297527
+[EL Finer]: transaction: 2016-06-16 05:22:28.653--ClientSession(1625297527)--Thread(Thread[Test worker,5,main])--acquire unit of work: 383546449
+[EL Finest]: connection: 2016-06-16 05:22:28.653--ServerSession(166674373)--Connection(1666743696)--Thread(Thread[Test worker,5,main])--Connection acquired from connection pool [default].
+[EL Finer]: transaction: 2016-06-16 05:22:28.653--ClientSession(1625297527)--Connection(1666743696)--Thread(Thread[Test worker,5,main])--begin transaction
+[EL Finest]: connection: 2016-06-16 05:22:28.653--ClientSession(1625297527)--Thread(Thread[Test worker,5,main])--reconnecting to external connection pool
+[EL Finest]: transaction: 2016-06-16 05:22:28.656--UnitOfWork(383546449)--Thread(Thread[Test worker,5,main])--persist() operation called on: 5jipsyrRKqfTMwMOQwVHDVVZxmYRNwQkUcnbwyJq49O2pUXCja.
+[EL Finest]: sequencing: 2016-06-16 05:22:28.657--UnitOfWork(383546449)--Thread(Thread[Test worker,5,main])--assign sequence to the object (BD11550B-12EE-43B1-A288-BA0E06643CC2 -&gt; 5jipsyrRKqfTMwMOQwVHDVVZxmYRNwQkUcnbwyJq49O2pUXCja)
+[EL Finer]: transaction: 2016-06-16 05:22:28.658--UnitOfWork(383546449)--Thread(Thread[Test worker,5,main])--begin unit of work commit
+[EL Finest]: query: 2016-06-16 05:22:28.658--UnitOfWork(383546449)--Thread(Thread[Test worker,5,main])--Execute query InsertObjectQuery(5jipsyrRKqfTMwMOQwVHDVVZxmYRNwQkUcnbwyJq49O2pUXCja)
+[EL Fine]: sql: 2016-06-16 05:22:28.658--ClientSession(1625297527)--Connection(595057999)--Thread(Thread[Test worker,5,main])--INSERT INTO ast_SalesRegion_M (regioncode, regionname, versionId, createdBy, createdDate, updatedBy, updatedDate, activeStatus, txnAccessCode) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?)
+	bind =&gt; [BD11550B-12EE-43B1-A288-BA0E06643CC2, 5jipsyrRKqfTMwMOQwVHDVVZxmYRNwQkUcnbwyJq49O2pUXCja, 1, AAAAA, 2016-06-16 05:22:28.652, AAAAA, 2016-06-16 05:22:28.652, 1, 51000]
+[EL Finer]: transaction: 2016-06-16 05:22:28.66--ClientSession(1625297527)--Connection(595057999)--Thread(Thread[Test worker,5,main])--commit transaction
+[EL Finest]: connection: 2016-06-16 05:22:28.735--ServerSession(166674373)--Connection(1666743696)--Thread(Thread[Test worker,5,main])--Connection released to connection pool [default].
+[EL Finer]: transaction: 2016-06-16 05:22:28.735--UnitOfWork(383546449)--Thread(Thread[Test worker,5,main])--end unit of work commit
+[EL Finer]: transaction: 2016-06-16 05:22:28.735--UnitOfWork(383546449)--Thread(Thread[Test worker,5,main])--resume unit of work
+[EL Finer]: transaction: 2016-06-16 05:22:28.735--UnitOfWork(383546449)--Thread(Thread[Test worker,5,main])--release unit of work
+[EL Finer]: connection: 2016-06-16 05:22:28.735--ClientSession(1625297527)--Thread(Thread[Test worker,5,main])--client released
+[EL Finer]: connection: 2016-06-16 05:22:28.736--ServerSession(166674373)--Thread(Thread[Test worker,5,main])--client acquired: 599280223
+[EL Finer]: transaction: 2016-06-16 05:22:28.736--ClientSession(599280223)--Thread(Thread[Test worker,5,main])--acquire unit of work: 404403531
+[EL Finest]: connection: 2016-06-16 05:22:28.736--ServerSession(166674373)--Connection(24402762)--Thread(Thread[Test worker,5,main])--Connection acquired from connection pool [default].
+[EL Finer]: transaction: 2016-06-16 05:22:28.736--ClientSession(599280223)--Connection(24402762)--Thread(Thread[Test worker,5,main])--begin transaction
+[EL Finest]: connection: 2016-06-16 05:22:28.736--ClientSession(599280223)--Thread(Thread[Test worker,5,main])--reconnecting to external connection pool
+[EL Finest]: transaction: 2016-06-16 05:22:28.74--UnitOfWork(404403531)--Thread(Thread[Test worker,5,main])--persist() operation called on: aDel72QC7P72P9RDikgZ3BENM43POJq56D2emLW3JNFI8lJGOX,-8800.0,2290.0.
+[EL Finest]: sequencing: 2016-06-16 05:22:28.74--UnitOfWork(404403531)--Thread(Thread[Test worker,5,main])--assign sequence to the object (515DD2B4-C2A4-420A-9592-9C0488BE637A -&gt; aDel72QC7P72P9RDikgZ3BENM43POJq56D2emLW3JNFI8lJGOX,-8800.0,2290.0)
+[EL Finer]: transaction: 2016-06-16 05:22:28.74--UnitOfWork(404403531)--Thread(Thread[Test worker,5,main])--begin unit of work commit
+[EL Finest]: query: 2016-06-16 05:22:28.741--UnitOfWork(404403531)--Thread(Thread[Test worker,5,main])--Execute query InsertObjectQuery(aDel72QC7P72P9RDikgZ3BENM43POJq56D2emLW3JNFI8lJGOX,-8800.0,2290.0)
+[EL Fine]: sql: 2016-06-16 05:22:28.741--ClientSession(599280223)--Connection(2115355866)--Thread(Thread[Test worker,5,main])--INSERT INTO ast_Distributor_M (distributorcode, distributorname, lattitude, longitude, regioncode, versionId, createdBy, createdDate, updatedBy, updatedDate, activeStatus, txnAccessCode) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
+	bind =&gt; [515DD2B4-C2A4-420A-9592-9C0488BE637A, aDel72QC7P72P9RDikgZ3BENM43POJq56D2emLW3JNFI8lJGOX, 2290.0, -8800.0, BD11550B-12EE-43B1-A288-BA0E06643CC2, 1, AAAAA, 2016-06-16 05:22:28.652, AAAAA, 2016-06-16 05:22:28.652, 1, 51000]
+[EL Finer]: transaction: 2016-06-16 05:22:28.742--ClientSession(599280223)--Connection(2115355866)--Thread(Thread[Test worker,5,main])--commit transaction
+[EL Finest]: connection: 2016-06-16 05:22:29.063--ServerSession(166674373)--Connection(24402762)--Thread(Thread[Test worker,5,main])--Connection released to connection pool [default].
+[EL Finer]: transaction: 2016-06-16 05:22:29.063--UnitOfWork(404403531)--Thread(Thread[Test worker,5,main])--end unit of work commit
+[EL Finer]: transaction: 2016-06-16 05:22:29.063--UnitOfWork(404403531)--Thread(Thread[Test worker,5,main])--resume unit of work
+[EL Finer]: transaction: 2016-06-16 05:22:29.064--UnitOfWork(404403531)--Thread(Thread[Test worker,5,main])--release unit of work
+[EL Finer]: connection: 2016-06-16 05:22:29.064--ClientSession(599280223)--Thread(Thread[Test worker,5,main])--client released
+[EL Finer]: connection: 2016-06-16 05:22:29.065--ServerSession(166674373)--Thread(Thread[Test worker,5,main])--client acquired: 1873565280
+[EL Finer]: transaction: 2016-06-16 05:22:29.065--ClientSession(1873565280)--Thread(Thread[Test worker,5,main])--acquire unit of work: 458944999
+[EL Finest]: connection: 2016-06-16 05:22:29.065--ServerSession(166674373)--Connection(1874821816)--Thread(Thread[Test worker,5,main])--Connection acquired from connection pool [default].
+[EL Finer]: transaction: 2016-06-16 05:22:29.065--ClientSession(1873565280)--Connection(1874821816)--Thread(Thread[Test worker,5,main])--begin transaction
+[EL Finest]: connection: 2016-06-16 05:22:29.065--ClientSession(1873565280)--Thread(Thread[Test worker,5,main])--reconnecting to external connection pool
+[EL Finest]: transaction: 2016-06-16 05:22:29.069--UnitOfWork(458944999)--Thread(Thread[Test worker,5,main])--persist() operation called on: 9PrJADlbW88svps9kBqlCNEIcVUlRWaA0IXsVhvdN2D4Nt1E0E.
+[EL Finest]: sequencing: 2016-06-16 05:22:29.069--UnitOfWork(458944999)--Thread(Thread[Test worker,5,main])--assign sequence to the object (60FAB1F2-077F-4F74-9CA2-6B53CB2374B5 -&gt; 9PrJADlbW88svps9kBqlCNEIcVUlRWaA0IXsVhvdN2D4Nt1E0E)
+[EL Finer]: transaction: 2016-06-16 05:22:29.07--UnitOfWork(458944999)--Thread(Thread[Test worker,5,main])--begin unit of work commit
+[EL Finest]: query: 2016-06-16 05:22:29.07--UnitOfWork(458944999)--Thread(Thread[Test worker,5,main])--Execute query InsertObjectQuery(9PrJADlbW88svps9kBqlCNEIcVUlRWaA0IXsVhvdN2D4Nt1E0E)
+[EL Fine]: sql: 2016-06-16 05:22:29.071--ClientSession(1873565280)--Connection(414185681)--Thread(Thread[Test worker,5,main])--INSERT INTO ast_Retailer_M (retailercode, distributorcode, retailername, versionId, createdBy, createdDate, updatedBy, updatedDate, activeStatus, txnAccessCode) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
+	bind =&gt; [60FAB1F2-077F-4F74-9CA2-6B53CB2374B5, 515DD2B4-C2A4-420A-9592-9C0488BE637A, 9PrJADlbW88svps9kBqlCNEIcVUlRWaA0IXsVhvdN2D4Nt1E0E, 1, AAAAA, 2016-06-16 05:22:28.652, AAAAA, 2016-06-16 05:22:28.652, 1, 51000]
+[EL Finer]: transaction: 2016-06-16 05:22:29.072--ClientSession(1873565280)--Connection(414185681)--Thread(Thread[Test worker,5,main])--commit transaction
+[EL Finest]: connection: 2016-06-16 05:22:29.212--ServerSession(166674373)--Connection(1874821816)--Thread(Thread[Test worker,5,main])--Connection released to connection pool [default].
+[EL Finer]: transaction: 2016-06-16 05:22:29.213--UnitOfWork(458944999)--Thread(Thread[Test worker,5,main])--end unit of work commit
+[EL Finer]: transaction: 2016-06-16 05:22:29.213--UnitOfWork(458944999)--Thread(Thread[Test worker,5,main])--resume unit of work
+[EL Finer]: transaction: 2016-06-16 05:22:29.213--UnitOfWork(458944999)--Thread(Thread[Test worker,5,main])--release unit of work
+[EL Finer]: connection: 2016-06-16 05:22:29.213--ClientSession(1873565280)--Thread(Thread[Test worker,5,main])--client released
+[EL Finer]: connection: 2016-06-16 05:22:29.214--ServerSession(166674373)--Thread(Thread[Test worker,5,main])--client acquired: 90297363
+[EL Finer]: transaction: 2016-06-16 05:22:29.214--ClientSession(90297363)--Thread(Thread[Test worker,5,main])--acquire unit of work: 1504325159
+[EL Finest]: connection: 2016-06-16 05:22:29.214--ServerSession(166674373)--Connection(867971182)--Thread(Thread[Test worker,5,main])--Connection acquired from connection pool [default].
+[EL Finer]: transaction: 2016-06-16 05:22:29.214--ClientSession(90297363)--Connection(867971182)--Thread(Thread[Test worker,5,main])--begin transaction
+[EL Finest]: connection: 2016-06-16 05:22:29.214--ClientSession(90297363)--Thread(Thread[Test worker,5,main])--reconnecting to external connection pool
+[EL Finest]: transaction: 2016-06-16 05:22:29.216--UnitOfWork(1504325159)--Thread(Thread[Test worker,5,main])--persist() operation called on: c75lQRYd3pMrot10gTMeOSQD3aCyHhvOkn2ZKKi2USlaQ6Whd1.
+[EL Finest]: sequencing: 2016-06-16 05:22:29.216--UnitOfWork(1504325159)--Thread(Thread[Test worker,5,main])--assign sequence to the object (872822B1-35EB-4A36-87B8-4E3095BF37A6 -&gt; c75lQRYd3pMrot10gTMeOSQD3aCyHhvOkn2ZKKi2USlaQ6Whd1)
+[EL Finer]: transaction: 2016-06-16 05:22:29.217--UnitOfWork(1504325159)--Thread(Thread[Test worker,5,main])--begin unit of work commit
+[EL Finest]: query: 2016-06-16 05:22:29.217--UnitOfWork(1504325159)--Thread(Thread[Test worker,5,main])--Execute query InsertObjectQuery(c75lQRYd3pMrot10gTMeOSQD3aCyHhvOkn2ZKKi2USlaQ6Whd1)
+[EL Fine]: sql: 2016-06-16 05:22:29.217--ClientSession(90297363)--Connection(649304498)--Thread(Thread[Test worker,5,main])--INSERT INTO ast_Channel_M (channelId, channelInformation, versionId, createdBy, createdDate, updatedBy, updatedDate, activeStatus, txnAccessCode) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?)
+	bind =&gt; [872822B1-35EB-4A36-87B8-4E3095BF37A6, c75lQRYd3pMrot10gTMeOSQD3aCyHhvOkn2ZKKi2USlaQ6Whd1, 1, AAAAA, 2016-06-16 05:22:29.213, AAAAA, 2016-06-16 05:22:29.213, 1, 51000]
+[EL Finer]: transaction: 2016-06-16 05:22:29.219--ClientSession(90297363)--Connection(649304498)--Thread(Thread[Test worker,5,main])--commit transaction
+[EL Finest]: connection: 2016-06-16 05:22:29.461--ServerSession(166674373)--Connection(867971182)--Thread(Thread[Test worker,5,main])--Connection released to connection pool [default].
+[EL Finer]: transaction: 2016-06-16 05:22:29.461--UnitOfWork(1504325159)--Thread(Thread[Test worker,5,main])--end unit of work commit
+[EL Finer]: transaction: 2016-06-16 05:22:29.461--UnitOfWork(1504325159)--Thread(Thread[Test worker,5,main])--resume unit of work
+[EL Finer]: transaction: 2016-06-16 05:22:29.462--UnitOfWork(1504325159)--Thread(Thread[Test worker,5,main])--release unit of work
+[EL Finer]: connection: 2016-06-16 05:22:29.462--ClientSession(90297363)--Thread(Thread[Test worker,5,main])--client released
+Setting logged in user info for ADD
+[EL Finer]: connection: 2016-06-16 05:22:29.471--ServerSession(166674373)--Thread(Thread[Test worker,5,main])--client acquired: 1291192593
+[EL Finer]: transaction: 2016-06-16 05:22:29.471--ClientSession(1291192593)--Thread(Thread[Test worker,5,main])--acquire unit of work: 751657616
+[EL Finest]: connection: 2016-06-16 05:22:29.471--ServerSession(166674373)--Connection(1610740458)--Thread(Thread[Test worker,5,main])--Connection acquired from connection pool [default].
+[EL Finer]: transaction: 2016-06-16 05:22:29.471--ClientSession(1291192593)--Connection(1610740458)--Thread(Thread[Test worker,5,main])--begin transaction
+[EL Finest]: connection: 2016-06-16 05:22:29.471--ClientSession(1291192593)--Thread(Thread[Test worker,5,main])--reconnecting to external connection pool
+[EL Finest]: transaction: 2016-06-16 05:22:29.473--UnitOfWork(751657616)--Thread(Thread[Test worker,5,main])--persist() operation called on: VDRFlsMYM5GmXKQHCvyEAqGN5FmtoAGrlQ911WPCS36H8I0qxw.
+[EL Finer]: transaction: 2016-06-16 05:22:29.473--UnitOfWork(751657616)--Thread(Thread[Test worker,5,main])--begin unit of work commit
+[EL Finest]: query: 2016-06-16 05:22:29.473--UnitOfWork(751657616)--Thread(Thread[Test worker,5,main])--Execute query InsertObjectQuery(VDRFlsMYM5GmXKQHCvyEAqGN5FmtoAGrlQ911WPCS36H8I0qxw)
+[EL Fine]: sql: 2016-06-16 05:22:29.474--ClientSession(1291192593)--Connection(2140337219)--Thread(Thread[Test worker,5,main])--INSERT INTO ast_SalesData_T (brandcode, branddescription, categoryId, channelId, grosssalesamt, materialcode, materialdescription, netsalesamt, reatilercode, retailername, salesdate, salesinvoicenbr, salesmonth, salesqty, salesyear, versionId, createdBy, createdDate, updatedBy, updatedDate, activeStatus, txnAccessCode) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
+	bind =&gt; [3226B985-7B16-4BE5-839E-1215CC4AA8DA, n, 148B3C5C-1CE8-482C-87C0-A05669F98C3C, 872822B1-35EB-4A36-87B8-4E3095BF37A6, -2220.0, E3592152-F9A1-4767-BD6B-5FF8BFEE0E71, 36Zeip7LwyuLgXm1f35zL02e0Rlw6oLAsquKHV4PKEU1rVA8h3, 9000.0, 60FAB1F2-077F-4F74-9CA2-6B53CB2374B5, wDXxnKyUbxN9BzPS23CvkgfE85QZAUt89RUYBpv276W6GjxRf0, 1970-01-02, VDRFlsMYM5GmXKQHCvyEAqGN5FmtoAGrlQ911WPCS36H8I0qxw, 2147483647, -784.0, 2147483647, 1, AAAAA, 2016-06-16 05:22:29.462, AAAAA, 2016-06-16 05:22:29.462, 1, 51000]
+[EL Finest]: query: 2016-06-16 05:22:29.732--ClientSession(1291192593)--Thread(Thread[Test worker,5,main])--Execute query ValueReadQuery(name=&quot;SEQ_GEN_IDENTITY&quot; sql=&quot;SELECT LAST_INSERT_ID()&quot;)
+[EL Fine]: sql: 2016-06-16 05:22:29.733--ClientSession(1291192593)--Connection(2140337219)--Thread(Thread[Test worker,5,main])--SELECT LAST_INSERT_ID()
+[EL Finest]: sequencing: 2016-06-16 05:22:29.734--UnitOfWork(751657616)--Thread(Thread[Test worker,5,main])--assign sequence to the object (896 -&gt; VDRFlsMYM5GmXKQHCvyEAqGN5FmtoAGrlQ911WPCS36H8I0qxw)
+[EL Finer]: transaction: 2016-06-16 05:22:29.735--ClientSession(1291192593)--Connection(2140337219)--Thread(Thread[Test worker,5,main])--commit transaction
+[EL Finest]: connection: 2016-06-16 05:22:30.06--ServerSession(166674373)--Connection(1610740458)--Thread(Thread[Test worker,5,main])--Connection released to connection pool [default].
+[EL Finer]: transaction: 2016-06-16 05:22:30.061--UnitOfWork(751657616)--Thread(Thread[Test worker,5,main])--end unit of work commit
+[EL Finer]: transaction: 2016-06-16 05:22:30.061--UnitOfWork(751657616)--Thread(Thread[Test worker,5,main])--resume unit of work
+[EL Finer]: transaction: 2016-06-16 05:22:30.061--UnitOfWork(751657616)--Thread(Thread[Test worker,5,main])--release unit of work
+[EL Finer]: connection: 2016-06-16 05:22:30.061--ClientSession(1291192593)--Thread(Thread[Test worker,5,main])--client released
+[EL Finer]: connection: 2016-06-16 05:22:30.071--ServerSession(166674373)--Thread(Thread[Test worker,5,main])--client acquired: 1110350800
+[EL Finer]: transaction: 2016-06-16 05:22:30.071--ClientSession(1110350800)--Thread(Thread[Test worker,5,main])--acquire unit of work: 33003170
+[EL Finest]: connection: 2016-06-16 05:22:30.071--ServerSession(166674373)--Connection(633497264)--Thread(Thread[Test worker,5,main])--Connection acquired from connection pool [default].
+[EL Finer]: transaction: 2016-06-16 05:22:30.072--ClientSession(1110350800)--Connection(633497264)--Thread(Thread[Test worker,5,main])--begin transaction
+[EL Finest]: connection: 2016-06-16 05:22:30.072--ClientSession(1110350800)--Thread(Thread[Test worker,5,main])--reconnecting to external connection pool
+[EL Finer]: transaction: 2016-06-16 05:22:30.074--UnitOfWork(33003170)--Thread(Thread[Test worker,5,main])--begin unit of work flush
+[EL Finer]: transaction: 2016-06-16 05:22:30.074--UnitOfWork(33003170)--Thread(Thread[Test worker,5,main])--end unit of work flush
+[EL Finest]: query: 2016-06-16 05:22:30.074--UnitOfWork(33003170)--Thread(Thread[Test worker,5,main])--Execute query ReadAllQuery(name=&quot;SalesData.findById&quot; referenceClass=SalesData sql=&quot;SELECT autoid, brandcode, branddescription, categoryId, channelId, grosssalesamt, materialcode, materialdescription, netsalesamt, reatilercode, retailername, salesdate, salesinvoicenbr, salesmonth, salesqty, salesyear, versionId, createdBy, createdDate, updatedBy, updatedDate, activeStatus, txnAccessCode FROM ast_SalesData_T WHERE ((activeStatus = ?) AND (autoid = ?))&quot;)
+[EL Fine]: sql: 2016-06-16 05:22:30.075--ClientSession(1110350800)--Connection(1249524610)--Thread(Thread[Test worker,5,main])--SELECT autoid, brandcode, branddescription, categoryId, channelId, grosssalesamt, materialcode, materialdescription, netsalesamt, reatilercode, retailername, salesdate, salesinvoicenbr, salesmonth, salesqty, salesyear, versionId, createdBy, createdDate, updatedBy, updatedDate, activeStatus, txnAccessCode FROM ast_SalesData_T WHERE ((activeStatus = ?) AND (autoid = ?))
+	bind =&gt; [1, 896]
+[EL Finer]: transaction: 2016-06-16 05:22:30.077--UnitOfWork(33003170)--Thread(Thread[Test worker,5,main])--begin unit of work commit
+[EL Finer]: transaction: 2016-06-16 05:22:30.078--ClientSession(1110350800)--Connection(1249524610)--Thread(Thread[Test worker,5,main])--commit transaction
+[EL Finest]: connection: 2016-06-16 05:22:30.078--ServerSession(166674373)--Connection(633497264)--Thread(Thread[Test worker,5,main])--Connection released to connection pool [default].
+[EL Finer]: transaction: 2016-06-16 05:22:30.078--UnitOfWork(33003170)--Thread(Thread[Test worker,5,main])--end unit of work commit
+[EL Finer]: transaction: 2016-06-16 05:22:30.078--UnitOfWork(33003170)--Thread(Thread[Test worker,5,main])--resume unit of work
+[EL Finer]: transaction: 2016-06-16 05:22:30.079--UnitOfWork(33003170)--Thread(Thread[Test worker,5,main])--release unit of work
+[EL Finer]: connection: 2016-06-16 05:22:30.079--ClientSession(1110350800)--Thread(Thread[Test worker,5,main])--client released
+Setting logged in user info for UPDATE
+[EL Finer]: connection: 2016-06-16 05:22:30.079--ServerSession(166674373)--Thread(Thread[Test worker,5,main])--client acquired: 580321418
+[EL Finer]: transaction: 2016-06-16 05:22:30.08--ClientSession(580321418)--Thread(Thread[Test worker,5,main])--acquire unit of work: 1738831299
+[EL Finest]: connection: 2016-06-16 05:22:30.08--ServerSession(166674373)--Connection(1580173917)--Thread(Thread[Test worker,5,main])--Connection acquired from connection pool [default].
+[EL Finer]: transaction: 2016-06-16 05:22:30.08--ClientSession(580321418)--Connection(1580173917)--Thread(Thread[Test worker,5,main])--begin transaction
+[EL Finest]: connection: 2016-06-16 05:22:30.08--ClientSession(580321418)--Thread(Thread[Test worker,5,main])--reconnecting to external connection pool
+[EL Finest]: transaction: 2016-06-16 05:22:30.086--UnitOfWork(1738831299)--Thread(Thread[Test worker,5,main])--Merge clone with references M244tu0tZJE7UhRBKBiimM7uXssO1hvnSnmWlc7M2HRpQ77jeL
+[EL Finest]: query: 2016-06-16 05:22:30.086--UnitOfWork(1738831299)--Thread(Thread[Test worker,5,main])--Execute query ReadObjectQuery(referenceClass=SalesData )
+[EL Fine]: sql: 2016-06-16 05:22:30.087--ClientSession(580321418)--Connection(401775259)--Thread(Thread[Test worker,5,main])--SELECT autoid, brandcode, branddescription, categoryId, channelId, grosssalesamt, materialcode, materialdescription, netsalesamt, reatilercode, retailername, salesdate, salesinvoicenbr, salesmonth, salesqty, salesyear, versionId, createdBy, createdDate, updatedBy, updatedDate, activeStatus, txnAccessCode FROM ast_SalesData_T WHERE (autoid = ?)
+	bind =&gt; [896]
+[EL Finer]: transaction: 2016-06-16 05:22:30.089--UnitOfWork(1738831299)--Thread(Thread[Test worker,5,main])--begin unit of work commit
+[EL Finest]: query: 2016-06-16 05:22:30.09--UnitOfWork(1738831299)--Thread(Thread[Test worker,5,main])--Execute query UpdateObjectQuery(M244tu0tZJE7UhRBKBiimM7uXssO1hvnSnmWlc7M2HRpQ77jeL)
+[EL Fine]: sql: 2016-06-16 05:22:30.09--ClientSession(580321418)--Connection(401775259)--Thread(Thread[Test worker,5,main])--UPDATE ast_SalesData_T SET branddescription = ?, grosssalesamt = ?, materialdescription = ?, netsalesamt = ?, retailername = ?, salesdate = ?, salesinvoicenbr = ?, salesqty = ?, versionId = ? WHERE ((autoid = ?) AND (versionId = ?))
+	bind =&gt; [u, 5820.0, pUtkdcdgWXukcgZwtHVm8R763C1OjsafcTZdaewijrjDio0EcY, 8000.0, unHEMCFebXShQm7aUPEsGfgHluSV3uKS54Xi9wc3DdNkrZiLup, 1970-01-02, M244tu0tZJE7UhRBKBiimM7uXssO1hvnSnmWlc7M2HRpQ77jeL, -9700.0, 2, 896, 1]
+[EL Finer]: transaction: 2016-06-16 05:22:30.092--ClientSession(580321418)--Connection(401775259)--Thread(Thread[Test worker,5,main])--commit transaction
+[EL Finest]: connection: 2016-06-16 05:22:30.293--ServerSession(166674373)--Connection(1580173917)--Thread(Thread[Test worker,5,main])--Connection released to connection pool [default].
+[EL Finer]: transaction: 2016-06-16 05:22:30.293--UnitOfWork(1738831299)--Thread(Thread[Test worker,5,main])--end unit of work commit
+[EL Finer]: transaction: 2016-06-16 05:22:30.294--UnitOfWork(1738831299)--Thread(Thread[Test worker,5,main])--resume unit of work
+[EL Finer]: transaction: 2016-06-16 05:22:30.294--UnitOfWork(1738831299)--Thread(Thread[Test worker,5,main])--release unit of work
+[EL Finer]: connection: 2016-06-16 05:22:30.294--ClientSession(580321418)--Thread(Thread[Test worker,5,main])--client released
+[EL Finer]: connection: 2016-06-16 05:22:30.303--ServerSession(166674373)--Thread(Thread[Test worker,5,main])--client acquired: 625260129
+[EL Finer]: transaction: 2016-06-16 05:22:30.304--ClientSession(625260129)--Thread(Thread[Test worker,5,main])--acquire unit of work: 1109503332
+[EL Finest]: connection: 2016-06-16 05:22:30.304--ServerSession(166674373)--Connection(821994023)--Thread(Thread[Test worker,5,main])--Connection acquired from connection pool [default].
+[EL Finer]: transaction: 2016-06-16 05:22:30.304--ClientSession(625260129)--Connection(821994023)--Thread(Thread[Test worker,5,main])--begin transaction
+[EL Finest]: connection: 2016-06-16 05:22:30.304--ClientSession(625260129)--Thread(Thread[Test worker,5,main])--reconnecting to external connection pool
+[EL Finer]: transaction: 2016-06-16 05:22:30.305--UnitOfWork(1109503332)--Thread(Thread[Test worker,5,main])--begin unit of work flush
+[EL Finer]: transaction: 2016-06-16 05:22:30.305--UnitOfWork(1109503332)--Thread(Thread[Test worker,5,main])--end unit of work flush
+[EL Finest]: query: 2016-06-16 05:22:30.305--UnitOfWork(1109503332)--Thread(Thread[Test worker,5,main])--Execute query ReadAllQuery(name=&quot;SalesData.findById&quot; referenceClass=SalesData sql=&quot;SELECT autoid, brandcode, branddescription, categoryId, channelId, grosssalesamt, materialcode, materialdescription, netsalesamt, reatilercode, retailername, salesdate, salesinvoicenbr, salesmonth, salesqty, salesyear, versionId, createdBy, createdDate, updatedBy, updatedDate, activeStatus, txnAccessCode FROM ast_SalesData_T WHERE ((activeStatus = ?) AND (autoid = ?))&quot;)
+[EL Fine]: sql: 2016-06-16 05:22:30.306--ClientSession(625260129)--Connection(1400852802)--Thread(Thread[Test worker,5,main])--SELECT autoid, brandcode, branddescription, categoryId, channelId, grosssalesamt, materialcode, materialdescription, netsalesamt, reatilercode, retailername, salesdate, salesinvoicenbr, salesmonth, salesqty, salesyear, versionId, createdBy, createdDate, updatedBy, updatedDate, activeStatus, txnAccessCode FROM ast_SalesData_T WHERE ((activeStatus = ?) AND (autoid = ?))
+	bind =&gt; [1, 896]
+[EL Finer]: transaction: 2016-06-16 05:22:30.308--UnitOfWork(1109503332)--Thread(Thread[Test worker,5,main])--begin unit of work commit
+[EL Finer]: transaction: 2016-06-16 05:22:30.308--ClientSession(625260129)--Connection(1400852802)--Thread(Thread[Test worker,5,main])--commit transaction
+[EL Finest]: connection: 2016-06-16 05:22:30.309--ServerSession(166674373)--Connection(821994023)--Thread(Thread[Test worker,5,main])--Connection released to connection pool [default].
+[EL Finer]: transaction: 2016-06-16 05:22:30.309--UnitOfWork(1109503332)--Thread(Thread[Test worker,5,main])--end unit of work commit
+[EL Finer]: transaction: 2016-06-16 05:22:30.309--UnitOfWork(1109503332)--Thread(Thread[Test worker,5,main])--resume unit of work
+[EL Finer]: transaction: 2016-06-16 05:22:30.309--UnitOfWork(1109503332)--Thread(Thread[Test worker,5,main])--release unit of work
+[EL Finer]: connection: 2016-06-16 05:22:30.309--ClientSession(625260129)--Thread(Thread[Test worker,5,main])--client released
+[EL Finer]: connection: 2016-06-16 05:22:30.319--ServerSession(166674373)--Thread(Thread[Test worker,5,main])--client acquired: 1001601533
+[EL Finer]: transaction: 2016-06-16 05:22:30.319--ClientSession(1001601533)--Thread(Thread[Test worker,5,main])--acquire unit of work: 1940139945
+[EL Finest]: connection: 2016-06-16 05:22:30.319--ServerSession(166674373)--Connection(540359567)--Thread(Thread[Test worker,5,main])--Connection acquired from connection pool [default].
+[EL Finer]: transaction: 2016-06-16 05:22:30.319--ClientSession(1001601533)--Connection(540359567)--Thread(Thread[Test worker,5,main])--begin transaction
+[EL Finest]: connection: 2016-06-16 05:22:30.319--ClientSession(1001601533)--Thread(Thread[Test worker,5,main])--reconnecting to external connection pool
+[EL Finer]: transaction: 2016-06-16 05:22:30.321--UnitOfWork(1940139945)--Thread(Thread[Test worker,5,main])--begin unit of work flush
+[EL Finer]: transaction: 2016-06-16 05:22:30.321--UnitOfWork(1940139945)--Thread(Thread[Test worker,5,main])--end unit of work flush
+[EL Finest]: query: 2016-06-16 05:22:30.321--UnitOfWork(1940139945)--Thread(Thread[Test worker,5,main])--Execute query ReadAllQuery(name=&quot;SalesData.findByBrandcode&quot; referenceClass=SalesData sql=&quot;SELECT autoid, brandcode, branddescription, categoryId, channelId, grosssalesamt, materialcode, materialdescription, netsalesamt, reatilercode, retailername, salesdate, salesinvoicenbr, salesmonth, salesqty, salesyear, versionId, createdBy, createdDate, updatedBy, updatedDate, activeStatus, txnAccessCode FROM ast_SalesData_T WHERE ((activeStatus = ?) AND (brandcode = ?))&quot;)
+[EL Fine]: sql: 2016-06-16 05:22:30.321--ClientSession(1001601533)--Connection(1939931120)--Thread(Thread[Test worker,5,main])--SELECT autoid, brandcode, branddescription, categoryId, channelId, grosssalesamt, materialcode, materialdescription, netsalesamt, reatilercode, retailername, salesdate, salesinvoicenbr, salesmonth, salesqty, salesyear, versionId, createdBy, createdDate, updatedBy, updatedDate, activeStatus, txnAccessCode FROM ast_SalesData_T WHERE ((activeStatus = ?) AND (brandcode = ?))
+	bind =&gt; [1, 3226B985-7B16-4BE5-839E-1215CC4AA8DA]
+[EL Finer]: transaction: 2016-06-16 05:22:30.325--UnitOfWork(1940139945)--Thread(Thread[Test worker,5,main])--begin unit of work commit
+[EL Finer]: transaction: 2016-06-16 05:22:30.325--ClientSession(1001601533)--Connection(1939931120)--Thread(Thread[Test worker,5,main])--commit transaction
+[EL Finest]: connection: 2016-06-16 05:22:30.33--ServerSession(166674373)--Connection(540359567)--Thread(Thread[Test worker,5,main])--Connection released to connection pool [default].
+[EL Finer]: transaction: 2016-06-16 05:22:30.331--UnitOfWork(1940139945)--Thread(Thread[Test worker,5,main])--end unit of work commit
+[EL Finer]: transaction: 2016-06-16 05:22:30.331--UnitOfWork(1940139945)--Thread(Thread[Test worker,5,main])--resume unit of work
+[EL Finer]: transaction: 2016-06-16 05:22:30.331--UnitOfWork(1940139945)--Thread(Thread[Test worker,5,main])--release unit of work
+[EL Finer]: connection: 2016-06-16 05:22:30.331--ClientSession(1001601533)--Thread(Thread[Test worker,5,main])--client released
+[EL Finer]: connection: 2016-06-16 05:22:30.339--ServerSession(166674373)--Thread(Thread[Test worker,5,main])--client acquired: 1213218542
+[EL Finer]: transaction: 2016-06-16 05:22:30.339--ClientSession(1213218542)--Thread(Thread[Test worker,5,main])--acquire unit of work: 206807129
+[EL Finest]: connection: 2016-06-16 05:22:30.339--ServerSession(166674373)--Connection(1178876257)--Thread(Thread[Test worker,5,main])--Connection acquired from connection pool [default].
+[EL Finer]: transaction: 2016-06-16 05:22:30.339--ClientSession(1213218542)--Connection(1178876257)--Thread(Thread[Test worker,5,main])--begin transaction
+[EL Finest]: connection: 2016-06-16 05:22:30.339--ClientSession(1213218542)--Thread(Thread[Test worker,5,main])--reconnecting to external connection pool
+[EL Finer]: transaction: 2016-06-16 05:22:30.341--UnitOfWork(206807129)--Thread(Thread[Test worker,5,main])--begin unit of work flush
+[EL Finer]: transaction: 2016-06-16 05:22:30.341--UnitOfWork(206807129)--Thread(Thread[Test worker,5,main])--end unit of work flush
+[EL Finest]: query: 2016-06-16 05:22:30.341--UnitOfWork(206807129)--Thread(Thread[Test worker,5,main])--Execute query ReadAllQuery(name=&quot;SalesData.findByCategoryId&quot; referenceClass=SalesData sql=&quot;SELECT autoid, brandcode, branddescription, categoryId, channelId, grosssalesamt, materialcode, materialdescription, netsalesamt, reatilercode, retailername, salesdate, salesinvoicenbr, salesmonth, salesqty, salesyear, versionId, createdBy, createdDate, updatedBy, updatedDate, activeStatus, txnAccessCode FROM ast_SalesData_T WHERE ((activeStatus = ?) AND (categoryId = ?))&quot;)
+[EL Fine]: sql: 2016-06-16 05:22:30.341--ClientSession(1213218542)--Connection(1133849089)--Thread(Thread[Test worker,5,main])--SELECT autoid, brandcode, branddescription, categoryId, channelId, grosssalesamt, materialcode, materialdescription, netsalesamt, reatilercode, retailername, salesdate, salesinvoicenbr, salesmonth, salesqty, salesyear, versionId, createdBy, createdDate, updatedBy, updatedDate, activeStatus, txnAccessCode FROM ast_SalesData_T WHERE ((activeStatus = ?) AND (categoryId = ?))
+	bind =&gt; [1, 148B3C5C-1CE8-482C-87C0-A05669F98C3C]
+[EL Finer]: transaction: 2016-06-16 05:22:30.343--UnitOfWork(206807129)--Thread(Thread[Test worker,5,main])--begin unit of work commit
+[EL Finer]: transaction: 2016-06-16 05:22:30.344--ClientSession(1213218542)--Connection(1133849089)--Thread(Thread[Test worker,5,main])--commit transaction
+[EL Finest]: connection: 2016-06-16 05:22:30.344--ServerSession(166674373)--Connection(1178876257)--Thread(Thread[Test worker,5,main])--Connection released to connection pool [default].
+[EL Finer]: transaction: 2016-06-16 05:22:30.344--UnitOfWork(206807129)--Thread(Thread[Test worker,5,main])--end unit of work commit
+[EL Finer]: transaction: 2016-06-16 05:22:30.344--UnitOfWork(206807129)--Thread(Thread[Test worker,5,main])--resume unit of work
+[EL Finer]: transaction: 2016-06-16 05:22:30.345--UnitOfWork(206807129)--Thread(Thread[Test worker,5,main])--release unit of work
+[EL Finer]: connection: 2016-06-16 05:22:30.345--ClientSession(1213218542)--Thread(Thread[Test worker,5,main])--client released
+[EL Finer]: connection: 2016-06-16 05:22:30.352--ServerSession(166674373)--Thread(Thread[Test worker,5,main])--client acquired: 1460450688
+[EL Finer]: transaction: 2016-06-16 05:22:30.352--ClientSession(1460450688)--Thread(Thread[Test worker,5,main])--acquire unit of work: 56628006
+[EL Finest]: connection: 2016-06-16 05:22:30.353--ServerSession(166674373)--Connection(411641221)--Thread(Thread[Test worker,5,main])--Connection acquired from connection pool [default].
+[EL Finer]: transaction: 2016-06-16 05:22:30.353--ClientSession(1460450688)--Connection(411641221)--Thread(Thread[Test worker,5,main])--begin transaction
+[EL Finest]: connection: 2016-06-16 05:22:30.353--ClientSession(1460450688)--Thread(Thread[Test worker,5,main])--reconnecting to external connection pool
+[EL Finer]: transaction: 2016-06-16 05:22:30.354--UnitOfWork(56628006)--Thread(Thread[Test worker,5,main])--begin unit of work flush
+[EL Finer]: transaction: 2016-06-16 05:22:30.354--UnitOfWork(56628006)--Thread(Thread[Test worker,5,main])--end unit of work flush
+[EL Finest]: query: 2016-06-16 05:22:30.354--UnitOfWork(56628006)--Thread(Thread[Test worker,5,main])--Execute query ReadAllQuery(name=&quot;SalesData.findByChannelId&quot; referenceClass=SalesData sql=&quot;SELECT autoid, brandcode, branddescription, categoryId, channelId, grosssalesamt, materialcode, materialdescription, netsalesamt, reatilercode, retailername, salesdate, salesinvoicenbr, salesmonth, salesqty, salesyear, versionId, createdBy, createdDate, updatedBy, updatedDate, activeStatus, txnAccessCode FROM ast_SalesData_T WHERE ((activeStatus = ?) AND (channelId = ?))&quot;)
+[EL Fine]: sql: 2016-06-16 05:22:30.354--ClientSession(1460450688)--Connection(1300179182)--Thread(Thread[Test worker,5,main])--SELECT autoid, brandcode, branddescription, categoryId, channelId, grosssalesamt, materialcode, materialdescription, netsalesamt, reatilercode, retailername, salesdate, salesinvoicenbr, salesmonth, salesqty, salesyear, versionId, createdBy, createdDate, updatedBy, updatedDate, activeStatus, txnAccessCode FROM ast_SalesData_T WHERE ((activeStatus = ?) AND (channelId = ?))
+	bind =&gt; [1, 872822B1-35EB-4A36-87B8-4E3095BF37A6]
+[EL Finer]: transaction: 2016-06-16 05:22:30.357--UnitOfWork(56628006)--Thread(Thread[Test worker,5,main])--begin unit of work commit
+[EL Finer]: transaction: 2016-06-16 05:22:30.357--ClientSession(1460450688)--Connection(1300179182)--Thread(Thread[Test worker,5,main])--commit transaction
+[EL Finest]: connection: 2016-06-16 05:22:30.357--ServerSession(166674373)--Connection(411641221)--Thread(Thread[Test worker,5,main])--Connection released to connection pool [default].
+[EL Finer]: transaction: 2016-06-16 05:22:30.358--UnitOfWork(56628006)--Thread(Thread[Test worker,5,main])--end unit of work commit
+[EL Finer]: transaction: 2016-06-16 05:22:30.358--UnitOfWork(56628006)--Thread(Thread[Test worker,5,main])--resume unit of work
+[EL Finer]: transaction: 2016-06-16 05:22:30.358--UnitOfWork(56628006)--Thread(Thread[Test worker,5,main])--release unit of work
+[EL Finer]: connection: 2016-06-16 05:22:30.358--ClientSession(1460450688)--Thread(Thread[Test worker,5,main])--client released
+[EL Finer]: connection: 2016-06-16 05:22:30.366--ServerSession(166674373)--Thread(Thread[Test worker,5,main])--client acquired: 1976916146
+[EL Finer]: transaction: 2016-06-16 05:22:30.366--ClientSession(1976916146)--Thread(Thread[Test worker,5,main])--acquire unit of work: 162679438
+[EL Finest]: connection: 2016-06-16 05:22:30.366--ServerSession(166674373)--Connection(406631835)--Thread(Thread[Test worker,5,main])--Connection acquired from connection pool [default].
+[EL Finer]: transaction: 2016-06-16 05:22:30.366--ClientSession(1976916146)--Connection(406631835)--Thread(Thread[Test worker,5,main])--begin transaction
+[EL Finest]: connection: 2016-06-16 05:22:30.366--ClientSession(1976916146)--Thread(Thread[Test worker,5,main])--reconnecting to external connection pool
+[EL Finer]: transaction: 2016-06-16 05:22:30.368--UnitOfWork(162679438)--Thread(Thread[Test worker,5,main])--begin unit of work flush
+[EL Finer]: transaction: 2016-06-16 05:22:30.368--UnitOfWork(162679438)--Thread(Thread[Test worker,5,main])--end unit of work flush
+[EL Finest]: query: 2016-06-16 05:22:30.368--UnitOfWork(162679438)--Thread(Thread[Test worker,5,main])--Execute query ReadAllQuery(name=&quot;SalesData.findByMaterialcode&quot; referenceClass=SalesData sql=&quot;SELECT autoid, brandcode, branddescription, categoryId, channelId, grosssalesamt, materialcode, materialdescription, netsalesamt, reatilercode, retailername, salesdate, salesinvoicenbr, salesmonth, salesqty, salesyear, versionId, createdBy, createdDate, updatedBy, updatedDate, activeStatus, txnAccessCode FROM ast_SalesData_T WHERE ((activeStatus = ?) AND (materialcode = ?))&quot;)
+[EL Fine]: sql: 2016-06-16 05:22:30.368--ClientSession(1976916146)--Connection(1080259671)--Thread(Thread[Test worker,5,main])--SELECT autoid, brandcode, branddescription, categoryId, channelId, grosssalesamt, materialcode, materialdescription, netsalesamt, reatilercode, retailername, salesdate, salesinvoicenbr, salesmonth, salesqty, salesyear, versionId, createdBy, createdDate, updatedBy, updatedDate, activeStatus, txnAccessCode FROM ast_SalesData_T WHERE ((activeStatus = ?) AND (materialcode = ?))
+	bind =&gt; [1, E3592152-F9A1-4767-BD6B-5FF8BFEE0E71]
+[EL Finer]: transaction: 2016-06-16 05:22:30.37--UnitOfWork(162679438)--Thread(Thread[Test worker,5,main])--begin unit of work commit
+[EL Finer]: transaction: 2016-06-16 05:22:30.37--ClientSession(1976916146)--Connection(1080259671)--Thread(Thread[Test worker,5,main])--commit transaction
+[EL Finest]: connection: 2016-06-16 05:22:30.371--ServerSession(166674373)--Connection(406631835)--Thread(Thread[Test worker,5,main])--Connection released to connection pool [default].
+[EL Finer]: transaction: 2016-06-16 05:22:30.371--UnitOfWork(162679438)--Thread(Thread[Test worker,5,main])--end unit of work commit
+[EL Finer]: transaction: 2016-06-16 05:22:30.371--UnitOfWork(162679438)--Thread(Thread[Test worker,5,main])--resume unit of work
+[EL Finer]: transaction: 2016-06-16 05:22:30.371--UnitOfWork(162679438)--Thread(Thread[Test worker,5,main])--release unit of work
+[EL Finer]: connection: 2016-06-16 05:22:30.371--ClientSession(1976916146)--Thread(Thread[Test worker,5,main])--client released
+[EL Finer]: connection: 2016-06-16 05:22:30.379--ServerSession(166674373)--Thread(Thread[Test worker,5,main])--client acquired: 610574421
+[EL Finer]: transaction: 2016-06-16 05:22:30.379--ClientSession(610574421)--Thread(Thread[Test worker,5,main])--acquire unit of work: 1247428381
+[EL Finest]: connection: 2016-06-16 05:22:30.379--ServerSession(166674373)--Connection(1793437453)--Thread(Thread[Test worker,5,main])--Connection acquired from connection pool [default].
+[EL Finer]: transaction: 2016-06-16 05:22:30.379--ClientSession(610574421)--Connection(1793437453)--Thread(Thread[Test worker,5,main])--begin transaction
+[EL Finest]: connection: 2016-06-16 05:22:30.379--ClientSession(610574421)--Thread(Thread[Test worker,5,main])--reconnecting to external connection pool
+[EL Finer]: transaction: 2016-06-16 05:22:30.384--UnitOfWork(1247428381)--Thread(Thread[Test worker,5,main])--begin unit of work flush
+[EL Finer]: transaction: 2016-06-16 05:22:30.384--UnitOfWork(1247428381)--Thread(Thread[Test worker,5,main])--end unit of work flush
+[EL Finest]: query: 2016-06-16 05:22:30.384--UnitOfWork(1247428381)--Thread(Thread[Test worker,5,main])--Execute query ReadAllQuery(name=&quot;SalesData.findByReatilercode&quot; referenceClass=SalesData sql=&quot;SELECT autoid, brandcode, branddescription, categoryId, channelId, grosssalesamt, materialcode, materialdescription, netsalesamt, reatilercode, retailername, salesdate, salesinvoicenbr, salesmonth, salesqty, salesyear, versionId, createdBy, createdDate, updatedBy, updatedDate, activeStatus, txnAccessCode FROM ast_SalesData_T WHERE ((activeStatus = ?) AND (reatilercode = ?))&quot;)
+[EL Fine]: sql: 2016-06-16 05:22:30.384--ClientSession(610574421)--Connection(790387320)--Thread(Thread[Test worker,5,main])--SELECT autoid, brandcode, branddescription, categoryId, channelId, grosssalesamt, materialcode, materialdescription, netsalesamt, reatilercode, retailername, salesdate, salesinvoicenbr, salesmonth, salesqty, salesyear, versionId, createdBy, createdDate, updatedBy, updatedDate, activeStatus, txnAccessCode FROM ast_SalesData_T WHERE ((activeStatus = ?) AND (reatilercode = ?))
+	bind =&gt; [1, 60FAB1F2-077F-4F74-9CA2-6B53CB2374B5]
+[EL Finer]: transaction: 2016-06-16 05:22:30.386--UnitOfWork(1247428381)--Thread(Thread[Test worker,5,main])--begin unit of work commit
+[EL Finer]: transaction: 2016-06-16 05:22:30.386--ClientSession(610574421)--Connection(790387320)--Thread(Thread[Test worker,5,main])--commit transaction
+[EL Finest]: connection: 2016-06-16 05:22:30.387--ServerSession(166674373)--Connection(1793437453)--Thread(Thread[Test worker,5,main])--Connection released to connection pool [default].
+[EL Finer]: transaction: 2016-06-16 05:22:30.387--UnitOfWork(1247428381)--Thread(Thread[Test worker,5,main])--end unit of work commit
+[EL Finer]: transaction: 2016-06-16 05:22:30.387--UnitOfWork(1247428381)--Thread(Thread[Test worker,5,main])--resume unit of work
+[EL Finer]: transaction: 2016-06-16 05:22:30.387--UnitOfWork(1247428381)--Thread(Thread[Test worker,5,main])--release unit of work
+[EL Finer]: connection: 2016-06-16 05:22:30.387--ClientSession(610574421)--Thread(Thread[Test worker,5,main])--client released
+[EL Finer]: connection: 2016-06-16 05:22:30.486--ServerSession(166674373)--Thread(Thread[Test worker,5,main])--client acquired: 1702231334
+[EL Finer]: transaction: 2016-06-16 05:22:30.486--ClientSession(1702231334)--Thread(Thread[Test worker,5,main])--acquire unit of work: 624885204
+[EL Finest]: connection: 2016-06-16 05:22:30.486--ServerSession(166674373)--Connection(1250589798)--Thread(Thread[Test worker,5,main])--Connection acquired from connection pool [default].
+[EL Finer]: transaction: 2016-06-16 05:22:30.486--ClientSession(1702231334)--Connection(1250589798)--Thread(Thread[Test worker,5,main])--begin transaction
+[EL Finest]: connection: 2016-06-16 05:22:30.486--ClientSession(1702231334)--Thread(Thread[Test worker,5,main])--reconnecting to external connection pool
+[EL Finest]: query: 2016-06-16 05:22:30.487--UnitOfWork(624885204)--Thread(Thread[Test worker,5,main])--Execute query ReadObjectQuery(name=&quot;readSalesData&quot; referenceClass=SalesData sql=&quot;SELECT autoid, brandcode, branddescription, categoryId, channelId, grosssalesamt, materialcode, materialdescription, netsalesamt, reatilercode, retailername, salesdate, salesinvoicenbr, salesmonth, salesqty, salesyear, versionId, createdBy, createdDate, updatedBy, updatedDate, activeStatus, txnAccessCode FROM ast_SalesData_T WHERE (autoid = ?)&quot;)
+[EL Fine]: sql: 2016-06-16 05:22:30.487--ClientSession(1702231334)--Connection(1939884397)--Thread(Thread[Test worker,5,main])--SELECT autoid, brandcode, branddescription, categoryId, channelId, grosssalesamt, materialcode, materialdescription, netsalesamt, reatilercode, retailername, salesdate, salesinvoicenbr, salesmonth, salesqty, salesyear, versionId, createdBy, createdDate, updatedBy, updatedDate, activeStatus, txnAccessCode FROM ast_SalesData_T WHERE (autoid = ?)
+	bind =&gt; [896]
+[EL Finest]: transaction: 2016-06-16 05:22:30.489--UnitOfWork(624885204)--Thread(Thread[Test worker,5,main])--remove() operation called on: M244tu0tZJE7UhRBKBiimM7uXssO1hvnSnmWlc7M2HRpQ77jeL
+[EL Finer]: transaction: 2016-06-16 05:22:30.489--UnitOfWork(624885204)--Thread(Thread[Test worker,5,main])--begin unit of work commit
+[EL Finest]: query: 2016-06-16 05:22:30.489--UnitOfWork(624885204)--Thread(Thread[Test worker,5,main])--Execute query DoesExistQuery(referenceClass=SalesData )
+[EL Finest]: query: 2016-06-16 05:22:30.489--UnitOfWork(624885204)--Thread(Thread[Test worker,5,main])--Execute query DeleteObjectQuery(M244tu0tZJE7UhRBKBiimM7uXssO1hvnSnmWlc7M2HRpQ77jeL)
+[EL Fine]: sql: 2016-06-16 05:22:30.49--ClientSession(1702231334)--Connection(1939884397)--Thread(Thread[Test worker,5,main])--DELETE FROM ast_SalesData_T WHERE ((autoid = ?) AND (versionId = ?))
+	bind =&gt; [896, 2]
+[EL Finer]: transaction: 2016-06-16 05:22:30.491--ClientSession(1702231334)--Connection(1939884397)--Thread(Thread[Test worker,5,main])--commit transaction
+[EL Finest]: connection: 2016-06-16 05:22:30.617--ServerSession(166674373)--Connection(1250589798)--Thread(Thread[Test worker,5,main])--Connection released to connection pool [default].
+[EL Finer]: transaction: 2016-06-16 05:22:30.618--UnitOfWork(624885204)--Thread(Thread[Test worker,5,main])--end unit of work commit
+[EL Finer]: transaction: 2016-06-16 05:22:30.618--UnitOfWork(624885204)--Thread(Thread[Test worker,5,main])--resume unit of work
+[EL Finer]: transaction: 2016-06-16 05:22:30.618--UnitOfWork(624885204)--Thread(Thread[Test worker,5,main])--release unit of work
+[EL Finer]: connection: 2016-06-16 05:22:30.618--ClientSession(1702231334)--Thread(Thread[Test worker,5,main])--client released
+[EL Finer]: connection: 2016-06-16 05:22:30.619--ServerSession(166674373)--Thread(Thread[Test worker,5,main])--client acquired: 1682729315
+[EL Finer]: transaction: 2016-06-16 05:22:30.619--ClientSession(1682729315)--Thread(Thread[Test worker,5,main])--acquire unit of work: 1419449862
+[EL Finest]: connection: 2016-06-16 05:22:30.619--ServerSession(166674373)--Connection(297996111)--Thread(Thread[Test worker,5,main])--Connection acquired from connection pool [default].
+[EL Finer]: transaction: 2016-06-16 05:22:30.619--ClientSession(1682729315)--Connection(297996111)--Thread(Thread[Test worker,5,main])--begin transaction
+[EL Finest]: connection: 2016-06-16 05:22:30.619--ClientSession(1682729315)--Thread(Thread[Test worker,5,main])--reconnecting to external connection pool
+[EL Finest]: query: 2016-06-16 05:22:30.62--UnitOfWork(1419449862)--Thread(Thread[Test worker,5,main])--Execute query ReadObjectQuery(name=&quot;readChannel&quot; referenceClass=Channel sql=&quot;SELECT channelId, channelInformation, versionId, createdBy, createdDate, updatedBy, updatedDate, activeStatus, txnAccessCode FROM ast_Channel_M WHERE (channelId = ?)&quot;)
+[EL Fine]: sql: 2016-06-16 05:22:30.621--ClientSession(1682729315)--Connection(1450419920)--Thread(Thread[Test worker,5,main])--SELECT channelId, channelInformation, versionId, createdBy, createdDate, updatedBy, updatedDate, activeStatus, txnAccessCode FROM ast_Channel_M WHERE (channelId = ?)
+	bind =&gt; [872822B1-35EB-4A36-87B8-4E3095BF37A6]
+[EL Finest]: transaction: 2016-06-16 05:22:30.622--UnitOfWork(1419449862)--Thread(Thread[Test worker,5,main])--remove() operation called on: c75lQRYd3pMrot10gTMeOSQD3aCyHhvOkn2ZKKi2USlaQ6Whd1
+[EL Finer]: transaction: 2016-06-16 05:22:30.622--UnitOfWork(1419449862)--Thread(Thread[Test worker,5,main])--begin unit of work commit
+[EL Finest]: query: 2016-06-16 05:22:30.623--UnitOfWork(1419449862)--Thread(Thread[Test worker,5,main])--Execute query DoesExistQuery(referenceClass=Channel )
+[EL Finest]: query: 2016-06-16 05:22:30.623--UnitOfWork(1419449862)--Thread(Thread[Test worker,5,main])--Execute query DeleteObjectQuery(c75lQRYd3pMrot10gTMeOSQD3aCyHhvOkn2ZKKi2USlaQ6Whd1)
+[EL Fine]: sql: 2016-06-16 05:22:30.623--ClientSession(1682729315)--Connection(1450419920)--Thread(Thread[Test worker,5,main])--DELETE FROM ast_Channel_M WHERE ((channelId = ?) AND (versionId = ?))
+	bind =&gt; [872822B1-35EB-4A36-87B8-4E3095BF37A6, 1]
+[EL Finer]: transaction: 2016-06-16 05:22:30.624--ClientSession(1682729315)--Connection(1450419920)--Thread(Thread[Test worker,5,main])--commit transaction
+[EL Finest]: connection: 2016-06-16 05:22:30.949--ServerSession(166674373)--Connection(297996111)--Thread(Thread[Test worker,5,main])--Connection released to connection pool [default].
+[EL Finer]: transaction: 2016-06-16 05:22:30.949--UnitOfWork(1419449862)--Thread(Thread[Test worker,5,main])--end unit of work commit
+[EL Finer]: transaction: 2016-06-16 05:22:30.95--UnitOfWork(1419449862)--Thread(Thread[Test worker,5,main])--resume unit of work
+[EL Finer]: transaction: 2016-06-16 05:22:30.95--UnitOfWork(1419449862)--Thread(Thread[Test worker,5,main])--release unit of work
+[EL Finer]: connection: 2016-06-16 05:22:30.95--ClientSession(1682729315)--Thread(Thread[Test worker,5,main])--client released
+[EL Finer]: connection: 2016-06-16 05:22:30.951--ServerSession(166674373)--Thread(Thread[Test worker,5,main])--client acquired: 1349731186
+[EL Finer]: transaction: 2016-06-16 05:22:30.951--ClientSession(1349731186)--Thread(Thread[Test worker,5,main])--acquire unit of work: 1062279841
+[EL Finest]: connection: 2016-06-16 05:22:30.951--ServerSession(166674373)--Connection(1705730176)--Thread(Thread[Test worker,5,main])--Connection acquired from connection pool [default].
+[EL Finer]: transaction: 2016-06-16 05:22:30.951--ClientSession(1349731186)--Connection(1705730176)--Thread(Thread[Test worker,5,main])--begin transaction
+[EL Finest]: connection: 2016-06-16 05:22:30.951--ClientSession(1349731186)--Thread(Thread[Test worker,5,main])--reconnecting to external connection pool
+[EL Finest]: query: 2016-06-16 05:22:30.953--UnitOfWork(1062279841)--Thread(Thread[Test worker,5,main])--Execute query ReadObjectQuery(name=&quot;readRetailer&quot; referenceClass=Retailer sql=&quot;SELECT retailercode, distributorcode, retailername, versionId, createdBy, createdDate, updatedBy, updatedDate, activeStatus, txnAccessCode FROM ast_Retailer_M WHERE (retailercode = ?)&quot;)
+[EL Fine]: sql: 2016-06-16 05:22:30.953--ClientSession(1349731186)--Connection(1063837357)--Thread(Thread[Test worker,5,main])--SELECT retailercode, distributorcode, retailername, versionId, createdBy, createdDate, updatedBy, updatedDate, activeStatus, txnAccessCode FROM ast_Retailer_M WHERE (retailercode = ?)
+	bind =&gt; [60FAB1F2-077F-4F74-9CA2-6B53CB2374B5]
+[EL Finest]: transaction: 2016-06-16 05:22:30.955--UnitOfWork(1062279841)--Thread(Thread[Test worker,5,main])--remove() operation called on: 9PrJADlbW88svps9kBqlCNEIcVUlRWaA0IXsVhvdN2D4Nt1E0E
+[EL Finer]: transaction: 2016-06-16 05:22:30.956--UnitOfWork(1062279841)--Thread(Thread[Test worker,5,main])--begin unit of work commit
+[EL Finest]: query: 2016-06-16 05:22:30.956--UnitOfWork(1062279841)--Thread(Thread[Test worker,5,main])--Execute query DoesExistQuery(referenceClass=Retailer )
+[EL Finest]: query: 2016-06-16 05:22:30.956--UnitOfWork(1062279841)--Thread(Thread[Test worker,5,main])--Execute query DeleteObjectQuery(9PrJADlbW88svps9kBqlCNEIcVUlRWaA0IXsVhvdN2D4Nt1E0E)
+[EL Fine]: sql: 2016-06-16 05:22:30.956--ClientSession(1349731186)--Connection(1063837357)--Thread(Thread[Test worker,5,main])--DELETE FROM ast_Retailer_M WHERE ((retailercode = ?) AND (versionId = ?))
+	bind =&gt; [60FAB1F2-077F-4F74-9CA2-6B53CB2374B5, 1]
+[EL Finer]: transaction: 2016-06-16 05:22:31.116--ClientSession(1349731186)--Connection(1063837357)--Thread(Thread[Test worker,5,main])--commit transaction
+[EL Finest]: connection: 2016-06-16 05:22:31.206--ServerSession(166674373)--Connection(1705730176)--Thread(Thread[Test worker,5,main])--Connection released to connection pool [default].
+[EL Finer]: transaction: 2016-06-16 05:22:31.206--UnitOfWork(1062279841)--Thread(Thread[Test worker,5,main])--end unit of work commit
+[EL Finer]: transaction: 2016-06-16 05:22:31.206--UnitOfWork(1062279841)--Thread(Thread[Test worker,5,main])--resume unit of work
+[EL Finer]: transaction: 2016-06-16 05:22:31.206--UnitOfWork(1062279841)--Thread(Thread[Test worker,5,main])--release unit of work
+[EL Finer]: connection: 2016-06-16 05:22:31.206--ClientSession(1349731186)--Thread(Thread[Test worker,5,main])--client released
+[EL Finer]: connection: 2016-06-16 05:22:31.207--ServerSession(166674373)--Thread(Thread[Test worker,5,main])--client acquired: 1951872197
+[EL Finer]: transaction: 2016-06-16 05:22:31.207--ClientSession(1951872197)--Thread(Thread[Test worker,5,main])--acquire unit of work: 155823407
+[EL Finest]: connection: 2016-06-16 05:22:31.207--ServerSession(166674373)--Connection(1141435756)--Thread(Thread[Test worker,5,main])--Connection acquired from connection pool [default].
+[EL Finer]: transaction: 2016-06-16 05:22:31.207--ClientSession(1951872197)--Connection(1141435756)--Thread(Thread[Test worker,5,main])--begin transaction
+[EL Finest]: connection: 2016-06-16 05:22:31.208--ClientSession(1951872197)--Thread(Thread[Test worker,5,main])--reconnecting to external connection pool
+[EL Finest]: query: 2016-06-16 05:22:31.209--UnitOfWork(155823407)--Thread(Thread[Test worker,5,main])--Execute query ReadObjectQuery(name=&quot;readDistributor&quot; referenceClass=Distributor sql=&quot;SELECT distributorcode, distributorname, lattitude, longitude, regioncode, versionId, createdBy, createdDate, updatedBy, updatedDate, activeStatus, txnAccessCode FROM ast_Distributor_M WHERE (distributorcode = ?)&quot;)
+[EL Fine]: sql: 2016-06-16 05:22:31.209--ClientSession(1951872197)--Connection(160012935)--Thread(Thread[Test worker,5,main])--SELECT distributorcode, distributorname, lattitude, longitude, regioncode, versionId, createdBy, createdDate, updatedBy, updatedDate, activeStatus, txnAccessCode FROM ast_Distributor_M WHERE (distributorcode = ?)
+	bind =&gt; [515DD2B4-C2A4-420A-9592-9C0488BE637A]
+[EL Finest]: transaction: 2016-06-16 05:22:31.211--UnitOfWork(155823407)--Thread(Thread[Test worker,5,main])--remove() operation called on: aDel72QC7P72P9RDikgZ3BENM43POJq56D2emLW3JNFI8lJGOX,-8800.0,2290.0
+[EL Finer]: transaction: 2016-06-16 05:22:31.212--UnitOfWork(155823407)--Thread(Thread[Test worker,5,main])--begin unit of work commit
+[EL Finest]: query: 2016-06-16 05:22:31.212--UnitOfWork(155823407)--Thread(Thread[Test worker,5,main])--Execute query DoesExistQuery(referenceClass=Distributor )
+[EL Finest]: query: 2016-06-16 05:22:31.212--UnitOfWork(155823407)--Thread(Thread[Test worker,5,main])--Execute query DeleteObjectQuery(aDel72QC7P72P9RDikgZ3BENM43POJq56D2emLW3JNFI8lJGOX,-8800.0,2290.0)
+[EL Fine]: sql: 2016-06-16 05:22:31.213--ClientSession(1951872197)--Connection(160012935)--Thread(Thread[Test worker,5,main])--DELETE FROM ast_Distributor_M WHERE ((distributorcode = ?) AND (versionId = ?))
+	bind =&gt; [515DD2B4-C2A4-420A-9592-9C0488BE637A, 1]
+[EL Finer]: transaction: 2016-06-16 05:22:31.214--ClientSession(1951872197)--Connection(160012935)--Thread(Thread[Test worker,5,main])--commit transaction
+[EL Finest]: connection: 2016-06-16 05:22:31.439--ServerSession(166674373)--Connection(1141435756)--Thread(Thread[Test worker,5,main])--Connection released to connection pool [default].
+[EL Finer]: transaction: 2016-06-16 05:22:31.439--UnitOfWork(155823407)--Thread(Thread[Test worker,5,main])--end unit of work commit
+[EL Finer]: transaction: 2016-06-16 05:22:31.439--UnitOfWork(155823407)--Thread(Thread[Test worker,5,main])--resume unit of work
+[EL Finer]: transaction: 2016-06-16 05:22:31.439--UnitOfWork(155823407)--Thread(Thread[Test worker,5,main])--release unit of work
+[EL Finer]: connection: 2016-06-16 05:22:31.439--ClientSession(1951872197)--Thread(Thread[Test worker,5,main])--client released
+[EL Finer]: connection: 2016-06-16 05:22:31.439--ServerSession(166674373)--Thread(Thread[Test worker,5,main])--client acquired: 1652793191
+[EL Finer]: transaction: 2016-06-16 05:22:31.439--ClientSession(1652793191)--Thread(Thread[Test worker,5,main])--acquire unit of work: 794187192
+[EL Finest]: connection: 2016-06-16 05:22:31.44--ServerSession(166674373)--Connection(1293269839)--Thread(Thread[Test worker,5,main])--Connection acquired from connection pool [default].
+[EL Finer]: transaction: 2016-06-16 05:22:31.44--ClientSession(1652793191)--Connection(1293269839)--Thread(Thread[Test worker,5,main])--begin transaction
+[EL Finest]: connection: 2016-06-16 05:22:31.44--ClientSession(1652793191)--Thread(Thread[Test worker,5,main])--reconnecting to external connection pool
+[EL Finest]: query: 2016-06-16 05:22:31.441--UnitOfWork(794187192)--Thread(Thread[Test worker,5,main])--Execute query ReadObjectQuery(name=&quot;readSalesRegion&quot; referenceClass=SalesRegion sql=&quot;SELECT regioncode, regionname, versionId, createdBy, createdDate, updatedBy, updatedDate, activeStatus, txnAccessCode FROM ast_SalesRegion_M WHERE (regioncode = ?)&quot;)
+[EL Fine]: sql: 2016-06-16 05:22:31.441--ClientSession(1652793191)--Connection(202569373)--Thread(Thread[Test worker,5,main])--SELECT regioncode, regionname, versionId, createdBy, createdDate, updatedBy, updatedDate, activeStatus, txnAccessCode FROM ast_SalesRegion_M WHERE (regioncode = ?)
+	bind =&gt; [BD11550B-12EE-43B1-A288-BA0E06643CC2]
+[EL Finest]: transaction: 2016-06-16 05:22:31.442--UnitOfWork(794187192)--Thread(Thread[Test worker,5,main])--remove() operation called on: 5jipsyrRKqfTMwMOQwVHDVVZxmYRNwQkUcnbwyJq49O2pUXCja
+[EL Finer]: transaction: 2016-06-16 05:22:31.443--UnitOfWork(794187192)--Thread(Thread[Test worker,5,main])--begin unit of work commit
+[EL Finest]: query: 2016-06-16 05:22:31.443--UnitOfWork(794187192)--Thread(Thread[Test worker,5,main])--Execute query DoesExistQuery(referenceClass=SalesRegion )
+[EL Finest]: query: 2016-06-16 05:22:31.443--UnitOfWork(794187192)--Thread(Thread[Test worker,5,main])--Execute query DeleteObjectQuery(5jipsyrRKqfTMwMOQwVHDVVZxmYRNwQkUcnbwyJq49O2pUXCja)
+[EL Fine]: sql: 2016-06-16 05:22:31.443--ClientSession(1652793191)--Connection(202569373)--Thread(Thread[Test worker,5,main])--DELETE FROM ast_SalesRegion_M WHERE ((regioncode = ?) AND (versionId = ?))
+	bind =&gt; [BD11550B-12EE-43B1-A288-BA0E06643CC2, 1]
+[EL Finer]: transaction: 2016-06-16 05:22:31.444--ClientSession(1652793191)--Connection(202569373)--Thread(Thread[Test worker,5,main])--commit transaction
+[EL Finest]: connection: 2016-06-16 05:22:31.614--ServerSession(166674373)--Connection(1293269839)--Thread(Thread[Test worker,5,main])--Connection released to connection pool [default].
+[EL Finer]: transaction: 2016-06-16 05:22:31.614--UnitOfWork(794187192)--Thread(Thread[Test worker,5,main])--end unit of work commit
+[EL Finer]: transaction: 2016-06-16 05:22:31.614--UnitOfWork(794187192)--Thread(Thread[Test worker,5,main])--resume unit of work
+[EL Finer]: transaction: 2016-06-16 05:22:31.614--UnitOfWork(794187192)--Thread(Thread[Test worker,5,main])--release unit of work
+[EL Finer]: connection: 2016-06-16 05:22:31.614--ClientSession(1652793191)--Thread(Thread[Test worker,5,main])--client released
+[EL Finer]: connection: 2016-06-16 05:22:31.615--ServerSession(166674373)--Thread(Thread[Test worker,5,main])--client acquired: 1912386368
+[EL Finer]: transaction: 2016-06-16 05:22:31.615--ClientSession(1912386368)--Thread(Thread[Test worker,5,main])--acquire unit of work: 89942327
+[EL Finest]: connection: 2016-06-16 05:22:31.615--ServerSession(166674373)--Connection(1979686048)--Thread(Thread[Test worker,5,main])--Connection acquired from connection pool [default].
+[EL Finer]: transaction: 2016-06-16 05:22:31.615--ClientSession(1912386368)--Connection(1979686048)--Thread(Thread[Test worker,5,main])--begin transaction
+[EL Finest]: connection: 2016-06-16 05:22:31.616--ClientSession(1912386368)--Thread(Thread[Test worker,5,main])--reconnecting to external connection pool
+[EL Finest]: query: 2016-06-16 05:22:31.617--UnitOfWork(89942327)--Thread(Thread[Test worker,5,main])--Execute query ReadObjectQuery(name=&quot;readMaterial&quot; referenceClass=Material sql=&quot;SELECT materialcode, brandcode, materialdesc, versionId, createdBy, createdDate, updatedBy, updatedDate, activeStatus, txnAccessCode FROM ast_Material_M WHERE (materialcode = ?)&quot;)
+[EL Fine]: sql: 2016-06-16 05:22:31.618--ClientSession(1912386368)--Connection(758776322)--Thread(Thread[Test worker,5,main])--SELECT materialcode, brandcode, materialdesc, versionId, createdBy, createdDate, updatedBy, updatedDate, activeStatus, txnAccessCode FROM ast_Material_M WHERE (materialcode = ?)
+	bind =&gt; [E3592152-F9A1-4767-BD6B-5FF8BFEE0E71]
+[EL Finest]: transaction: 2016-06-16 05:22:31.619--UnitOfWork(89942327)--Thread(Thread[Test worker,5,main])--remove() operation called on: DNq3seMF5UGZ5ARlZz1wNkHLsHTBnKuKChVa04uoaeOzGphJ2b
+[EL Finer]: transaction: 2016-06-16 05:22:31.62--UnitOfWork(89942327)--Thread(Thread[Test worker,5,main])--begin unit of work commit
+[EL Finest]: query: 2016-06-16 05:22:31.62--UnitOfWork(89942327)--Thread(Thread[Test worker,5,main])--Execute query DoesExistQuery(referenceClass=Material )
+[EL Finest]: query: 2016-06-16 05:22:31.621--UnitOfWork(89942327)--Thread(Thread[Test worker,5,main])--Execute query DeleteObjectQuery(DNq3seMF5UGZ5ARlZz1wNkHLsHTBnKuKChVa04uoaeOzGphJ2b)
+[EL Fine]: sql: 2016-06-16 05:22:31.621--ClientSession(1912386368)--Connection(758776322)--Thread(Thread[Test worker,5,main])--DELETE FROM ast_Material_M WHERE ((materialcode = ?) AND (versionId = ?))
+	bind =&gt; [E3592152-F9A1-4767-BD6B-5FF8BFEE0E71, 1]
+[EL Finer]: transaction: 2016-06-16 05:22:31.9--ClientSession(1912386368)--Connection(758776322)--Thread(Thread[Test worker,5,main])--commit transaction
+[EL Finest]: connection: 2016-06-16 05:22:31.991--ServerSession(166674373)--Connection(1979686048)--Thread(Thread[Test worker,5,main])--Connection released to connection pool [default].
+[EL Finer]: transaction: 2016-06-16 05:22:31.991--UnitOfWork(89942327)--Thread(Thread[Test worker,5,main])--end unit of work commit
+[EL Finer]: transaction: 2016-06-16 05:22:31.991--UnitOfWork(89942327)--Thread(Thread[Test worker,5,main])--resume unit of work
+[EL Finer]: transaction: 2016-06-16 05:22:31.992--UnitOfWork(89942327)--Thread(Thread[Test worker,5,main])--release unit of work
+[EL Finer]: connection: 2016-06-16 05:22:31.992--ClientSession(1912386368)--Thread(Thread[Test worker,5,main])--client released
+[EL Finer]: connection: 2016-06-16 05:22:31.992--ServerSession(166674373)--Thread(Thread[Test worker,5,main])--client acquired: 349385427
+[EL Finer]: transaction: 2016-06-16 05:22:31.992--ClientSession(349385427)--Thread(Thread[Test worker,5,main])--acquire unit of work: 900580691
+[EL Finest]: connection: 2016-06-16 05:22:31.992--ServerSession(166674373)--Connection(594929581)--Thread(Thread[Test worker,5,main])--Connection acquired from connection pool [default].
+[EL Finer]: transaction: 2016-06-16 05:22:31.992--ClientSession(349385427)--Connection(594929581)--Thread(Thread[Test worker,5,main])--begin transaction
+[EL Finest]: connection: 2016-06-16 05:22:31.992--ClientSession(349385427)--Thread(Thread[Test worker,5,main])--reconnecting to external connection pool
+[EL Finest]: query: 2016-06-16 05:22:31.994--UnitOfWork(900580691)--Thread(Thread[Test worker,5,main])--Execute query ReadObjectQuery(name=&quot;readBrand&quot; referenceClass=Brand sql=&quot;SELECT brandcode, branddesc, categoryId, versionId, createdBy, createdDate, updatedBy, updatedDate, activeStatus, txnAccessCode FROM ast_Brand_M WHERE (brandcode = ?)&quot;)
+[EL Fine]: sql: 2016-06-16 05:22:31.994--ClientSession(349385427)--Connection(1207213571)--Thread(Thread[Test worker,5,main])--SELECT brandcode, branddesc, categoryId, versionId, createdBy, createdDate, updatedBy, updatedDate, activeStatus, txnAccessCode FROM ast_Brand_M WHERE (brandcode = ?)
+	bind =&gt; [3226B985-7B16-4BE5-839E-1215CC4AA8DA]
+[EL Finest]: transaction: 2016-06-16 05:22:31.996--UnitOfWork(900580691)--Thread(Thread[Test worker,5,main])--remove() operation called on: UYECw0kGL2M6dxKNV9JHFHz5BhQEOC95PtrtpXdZwbCaLLMGQ3
+[EL Finer]: transaction: 2016-06-16 05:22:31.996--UnitOfWork(900580691)--Thread(Thread[Test worker,5,main])--begin unit of work commit
+[EL Finest]: query: 2016-06-16 05:22:31.996--UnitOfWork(900580691)--Thread(Thread[Test worker,5,main])--Execute query DoesExistQuery(referenceClass=Brand )
+[EL Finest]: query: 2016-06-16 05:22:31.997--UnitOfWork(900580691)--Thread(Thread[Test worker,5,main])--Execute query DeleteObjectQuery(UYECw0kGL2M6dxKNV9JHFHz5BhQEOC95PtrtpXdZwbCaLLMGQ3)
+[EL Fine]: sql: 2016-06-16 05:22:31.997--ClientSession(349385427)--Connection(1207213571)--Thread(Thread[Test worker,5,main])--DELETE FROM ast_Brand_M WHERE ((brandcode = ?) AND (versionId = ?))
+	bind =&gt; [3226B985-7B16-4BE5-839E-1215CC4AA8DA, 1]
+[EL Finer]: transaction: 2016-06-16 05:22:31.998--ClientSession(349385427)--Connection(1207213571)--Thread(Thread[Test worker,5,main])--commit transaction
+[EL Finest]: connection: 2016-06-16 05:22:32.091--ServerSession(166674373)--Connection(594929581)--Thread(Thread[Test worker,5,main])--Connection released to connection pool [default].
+[EL Finer]: transaction: 2016-06-16 05:22:32.091--UnitOfWork(900580691)--Thread(Thread[Test worker,5,main])--end unit of work commit
+[EL Finer]: transaction: 2016-06-16 05:22:32.091--UnitOfWork(900580691)--Thread(Thread[Test worker,5,main])--resume unit of work
+[EL Finer]: transaction: 2016-06-16 05:22:32.092--UnitOfWork(900580691)--Thread(Thread[Test worker,5,main])--release unit of work
+[EL Finer]: connection: 2016-06-16 05:22:32.092--ClientSession(349385427)--Thread(Thread[Test worker,5,main])--client released
+[EL Finer]: connection: 2016-06-16 05:22:32.092--ServerSession(166674373)--Thread(Thread[Test worker,5,main])--client acquired: 542164306
+[EL Finer]: transaction: 2016-06-16 05:22:32.092--ClientSession(542164306)--Thread(Thread[Test worker,5,main])--acquire unit of work: 382376721
+[EL Finest]: connection: 2016-06-16 05:22:32.092--ServerSession(166674373)--Connection(1334478023)--Thread(Thread[Test worker,5,main])--Connection acquired from connection pool [default].
+[EL Finer]: transaction: 2016-06-16 05:22:32.092--ClientSession(542164306)--Connection(1334478023)--Thread(Thread[Test worker,5,main])--begin transaction
+[EL Finest]: connection: 2016-06-16 05:22:32.092--ClientSession(542164306)--Thread(Thread[Test worker,5,main])--reconnecting to external connection pool
+[EL Finest]: query: 2016-06-16 05:22:32.093--UnitOfWork(382376721)--Thread(Thread[Test worker,5,main])--Execute query ReadObjectQuery(name=&quot;readCategory&quot; referenceClass=Category sql=&quot;SELECT categoryId, categoryInformation, versionId, createdBy, createdDate, updatedBy, updatedDate, activeStatus, txnAccessCode FROM ast_Category_M WHERE (categoryId = ?)&quot;)
+[EL Fine]: sql: 2016-06-16 05:22:32.094--ClientSession(542164306)--Connection(1905377138)--Thread(Thread[Test worker,5,main])--SELECT categoryId, categoryInformation, versionId, createdBy, createdDate, updatedBy, updatedDate, activeStatus, txnAccessCode FROM ast_Category_M WHERE (categoryId = ?)
+	bind =&gt; [148B3C5C-1CE8-482C-87C0-A05669F98C3C]
+[EL Finest]: transaction: 2016-06-16 05:22:32.095--UnitOfWork(382376721)--Thread(Thread[Test worker,5,main])--remove() operation called on: SUjycrVqD3uSUKaLTTccVgcDvspvAErU5050osrv5h4ugSCq48
+[EL Finer]: transaction: 2016-06-16 05:22:32.095--UnitOfWork(382376721)--Thread(Thread[Test worker,5,main])--begin unit of work commit
+[EL Finest]: query: 2016-06-16 05:22:32.095--UnitOfWork(382376721)--Thread(Thread[Test worker,5,main])--Execute query DoesExistQuery(referenceClass=Category )
+[EL Finest]: query: 2016-06-16 05:22:32.096--UnitOfWork(382376721)--Thread(Thread[Test worker,5,main])--Execute query DeleteObjectQuery(SUjycrVqD3uSUKaLTTccVgcDvspvAErU5050osrv5h4ugSCq48)
+[EL Fine]: sql: 2016-06-16 05:22:32.096--ClientSession(542164306)--Connection(1905377138)--Thread(Thread[Test worker,5,main])--DELETE FROM ast_Category_M WHERE ((categoryId = ?) AND (versionId = ?))
+	bind =&gt; [148B3C5C-1CE8-482C-87C0-A05669F98C3C, 1]
+[EL Finer]: transaction: 2016-06-16 05:22:32.097--ClientSession(542164306)--Connection(1905377138)--Thread(Thread[Test worker,5,main])--commit transaction
+[EL Finest]: connection: 2016-06-16 05:22:32.541--ServerSession(166674373)--Connection(1334478023)--Thread(Thread[Test worker,5,main])--Connection released to connection pool [default].
+[EL Finer]: transaction: 2016-06-16 05:22:32.542--UnitOfWork(382376721)--Thread(Thread[Test worker,5,main])--end unit of work commit
+[EL Finer]: transaction: 2016-06-16 05:22:32.542--UnitOfWork(382376721)--Thread(Thread[Test worker,5,main])--resume unit of work
+[EL Finer]: transaction: 2016-06-16 05:22:32.542--UnitOfWork(382376721)--Thread(Thread[Test worker,5,main])--release unit of work
+[EL Finer]: connection: 2016-06-16 05:22:32.542--ClientSession(542164306)--Thread(Thread[Test worker,5,main])--client released
+</pre>
+</span>
+</div>
+<div id="tab2" class="tab">
+<h2>Standard error</h2>
+<span class="code">
+<pre>SalesData.retailername size must be between 0 and 64
+java.lang.SecurityException: SalesData.retailername size must be between 0 and 64
+	at com.athena.server.pluggable.utils.helper.EntityValidatorHelper.validateEntity(EntityValidatorHelper.java:37)
+	at com.sales.app.shared.salesboundedcontext.sales.SalesData.isValid(SalesData.java:346)
+	at com.sales.app.server.service.salesboundedcontext.sales.SalesDataTestCase.validateSalesData(SalesDataTestCase.java:358)
+	at com.sales.app.server.service.salesboundedcontext.sales.SalesDataTestCase.test5NegativeTesting(SalesDataTestCase.java:402)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:47)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:44)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:26)
+	at org.springframework.test.context.junit4.statements.RunBeforeTestMethodCallbacks.evaluate(RunBeforeTestMethodCallbacks.java:74)
+	at org.junit.internal.runners.statements.RunAfters.evaluate(RunAfters.java:27)
+	at org.springframework.test.context.junit4.statements.RunAfterTestMethodCallbacks.evaluate(RunAfterTestMethodCallbacks.java:83)
+	at org.springframework.test.context.junit4.statements.SpringRepeat.evaluate(SpringRepeat.java:72)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.runChild(SpringJUnit4ClassRunner.java:233)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.runChild(SpringJUnit4ClassRunner.java:87)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:238)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:63)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:236)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:53)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:229)
+	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:26)
+	at org.springframework.test.context.junit4.statements.RunBeforeTestClassCallbacks.evaluate(RunBeforeTestClassCallbacks.java:61)
+	at org.springframework.test.context.junit4.statements.RunAfterTestClassCallbacks.evaluate(RunAfterTestClassCallbacks.java:71)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:309)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.run(SpringJUnit4ClassRunner.java:176)
+	at org.gradle.api.internal.tasks.testing.junit.JUnitTestClassExecuter.runTestClass(JUnitTestClassExecuter.java:86)
+	at org.gradle.api.internal.tasks.testing.junit.JUnitTestClassExecuter.execute(JUnitTestClassExecuter.java:49)
+	at org.gradle.api.internal.tasks.testing.junit.JUnitTestClassProcessor.processTestClass(JUnitTestClassProcessor.java:64)
+	at org.gradle.api.internal.tasks.testing.SuiteTestClassProcessor.processTestClass(SuiteTestClassProcessor.java:50)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at org.gradle.messaging.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:35)
+	at org.gradle.messaging.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:24)
+	at org.gradle.messaging.dispatch.ContextClassLoaderDispatch.dispatch(ContextClassLoaderDispatch.java:32)
+	at org.gradle.messaging.dispatch.ProxyDispatchAdapter$DispatchingInvocationHandler.invoke(ProxyDispatchAdapter.java:93)
+	at com.sun.proxy.$Proxy2.processTestClass(Unknown Source)
+	at org.gradle.api.internal.tasks.testing.worker.TestWorker.processTestClass(TestWorker.java:106)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at org.gradle.messaging.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:35)
+	at org.gradle.messaging.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:24)
+	at org.gradle.messaging.remote.internal.hub.MessageHub$Handler.run(MessageHub.java:360)
+	at org.gradle.internal.concurrent.DefaultExecutorFactory$StoppableExecutorImpl$1.run(DefaultExecutorFactory.java:64)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:745)
+SalesData.salesdate may not be null
+java.lang.SecurityException: SalesData.salesdate may not be null
+	at com.athena.server.pluggable.utils.helper.EntityValidatorHelper.validateEntity(EntityValidatorHelper.java:37)
+	at com.sales.app.shared.salesboundedcontext.sales.SalesData.isValid(SalesData.java:346)
+	at com.sales.app.server.service.salesboundedcontext.sales.SalesDataTestCase.validateSalesData(SalesDataTestCase.java:360)
+	at com.sales.app.server.service.salesboundedcontext.sales.SalesDataTestCase.test5NegativeTesting(SalesDataTestCase.java:408)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:47)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:44)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:26)
+	at org.springframework.test.context.junit4.statements.RunBeforeTestMethodCallbacks.evaluate(RunBeforeTestMethodCallbacks.java:74)
+	at org.junit.internal.runners.statements.RunAfters.evaluate(RunAfters.java:27)
+	at org.springframework.test.context.junit4.statements.RunAfterTestMethodCallbacks.evaluate(RunAfterTestMethodCallbacks.java:83)
+	at org.springframework.test.context.junit4.statements.SpringRepeat.evaluate(SpringRepeat.java:72)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.runChild(SpringJUnit4ClassRunner.java:233)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.runChild(SpringJUnit4ClassRunner.java:87)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:238)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:63)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:236)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:53)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:229)
+	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:26)
+	at org.springframework.test.context.junit4.statements.RunBeforeTestClassCallbacks.evaluate(RunBeforeTestClassCallbacks.java:61)
+	at org.springframework.test.context.junit4.statements.RunAfterTestClassCallbacks.evaluate(RunAfterTestClassCallbacks.java:71)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:309)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.run(SpringJUnit4ClassRunner.java:176)
+	at org.gradle.api.internal.tasks.testing.junit.JUnitTestClassExecuter.runTestClass(JUnitTestClassExecuter.java:86)
+	at org.gradle.api.internal.tasks.testing.junit.JUnitTestClassExecuter.execute(JUnitTestClassExecuter.java:49)
+	at org.gradle.api.internal.tasks.testing.junit.JUnitTestClassProcessor.processTestClass(JUnitTestClassProcessor.java:64)
+	at org.gradle.api.internal.tasks.testing.SuiteTestClassProcessor.processTestClass(SuiteTestClassProcessor.java:50)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at org.gradle.messaging.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:35)
+	at org.gradle.messaging.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:24)
+	at org.gradle.messaging.dispatch.ContextClassLoaderDispatch.dispatch(ContextClassLoaderDispatch.java:32)
+	at org.gradle.messaging.dispatch.ProxyDispatchAdapter$DispatchingInvocationHandler.invoke(ProxyDispatchAdapter.java:93)
+	at com.sun.proxy.$Proxy2.processTestClass(Unknown Source)
+	at org.gradle.api.internal.tasks.testing.worker.TestWorker.processTestClass(TestWorker.java:106)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at org.gradle.messaging.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:35)
+	at org.gradle.messaging.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:24)
+	at org.gradle.messaging.remote.internal.hub.MessageHub$Handler.run(MessageHub.java:360)
+	at org.gradle.internal.concurrent.DefaultExecutorFactory$StoppableExecutorImpl$1.run(DefaultExecutorFactory.java:64)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:745)
+SalesData.salesmonth may not be null
+java.lang.SecurityException: SalesData.salesmonth may not be null
+	at com.athena.server.pluggable.utils.helper.EntityValidatorHelper.validateEntity(EntityValidatorHelper.java:37)
+	at com.sales.app.shared.salesboundedcontext.sales.SalesData.isValid(SalesData.java:346)
+	at com.sales.app.server.service.salesboundedcontext.sales.SalesDataTestCase.validateSalesData(SalesDataTestCase.java:360)
+	at com.sales.app.server.service.salesboundedcontext.sales.SalesDataTestCase.test5NegativeTesting(SalesDataTestCase.java:414)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:47)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:44)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:26)
+	at org.springframework.test.context.junit4.statements.RunBeforeTestMethodCallbacks.evaluate(RunBeforeTestMethodCallbacks.java:74)
+	at org.junit.internal.runners.statements.RunAfters.evaluate(RunAfters.java:27)
+	at org.springframework.test.context.junit4.statements.RunAfterTestMethodCallbacks.evaluate(RunAfterTestMethodCallbacks.java:83)
+	at org.springframework.test.context.junit4.statements.SpringRepeat.evaluate(SpringRepeat.java:72)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.runChild(SpringJUnit4ClassRunner.java:233)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.runChild(SpringJUnit4ClassRunner.java:87)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:238)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:63)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:236)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:53)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:229)
+	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:26)
+	at org.springframework.test.context.junit4.statements.RunBeforeTestClassCallbacks.evaluate(RunBeforeTestClassCallbacks.java:61)
+	at org.springframework.test.context.junit4.statements.RunAfterTestClassCallbacks.evaluate(RunAfterTestClassCallbacks.java:71)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:309)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.run(SpringJUnit4ClassRunner.java:176)
+	at org.gradle.api.internal.tasks.testing.junit.JUnitTestClassExecuter.runTestClass(JUnitTestClassExecuter.java:86)
+	at org.gradle.api.internal.tasks.testing.junit.JUnitTestClassExecuter.execute(JUnitTestClassExecuter.java:49)
+	at org.gradle.api.internal.tasks.testing.junit.JUnitTestClassProcessor.processTestClass(JUnitTestClassProcessor.java:64)
+	at org.gradle.api.internal.tasks.testing.SuiteTestClassProcessor.processTestClass(SuiteTestClassProcessor.java:50)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at org.gradle.messaging.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:35)
+	at org.gradle.messaging.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:24)
+	at org.gradle.messaging.dispatch.ContextClassLoaderDispatch.dispatch(ContextClassLoaderDispatch.java:32)
+	at org.gradle.messaging.dispatch.ProxyDispatchAdapter$DispatchingInvocationHandler.invoke(ProxyDispatchAdapter.java:93)
+	at com.sun.proxy.$Proxy2.processTestClass(Unknown Source)
+	at org.gradle.api.internal.tasks.testing.worker.TestWorker.processTestClass(TestWorker.java:106)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at org.gradle.messaging.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:35)
+	at org.gradle.messaging.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:24)
+	at org.gradle.messaging.remote.internal.hub.MessageHub$Handler.run(MessageHub.java:360)
+	at org.gradle.internal.concurrent.DefaultExecutorFactory$StoppableExecutorImpl$1.run(DefaultExecutorFactory.java:64)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:745)
+SalesData.salesyear may not be null
+java.lang.SecurityException: SalesData.salesyear may not be null
+	at com.athena.server.pluggable.utils.helper.EntityValidatorHelper.validateEntity(EntityValidatorHelper.java:37)
+	at com.sales.app.shared.salesboundedcontext.sales.SalesData.isValid(SalesData.java:346)
+	at com.sales.app.server.service.salesboundedcontext.sales.SalesDataTestCase.validateSalesData(SalesDataTestCase.java:360)
+	at com.sales.app.server.service.salesboundedcontext.sales.SalesDataTestCase.test5NegativeTesting(SalesDataTestCase.java:420)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:47)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:44)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:26)
+	at org.springframework.test.context.junit4.statements.RunBeforeTestMethodCallbacks.evaluate(RunBeforeTestMethodCallbacks.java:74)
+	at org.junit.internal.runners.statements.RunAfters.evaluate(RunAfters.java:27)
+	at org.springframework.test.context.junit4.statements.RunAfterTestMethodCallbacks.evaluate(RunAfterTestMethodCallbacks.java:83)
+	at org.springframework.test.context.junit4.statements.SpringRepeat.evaluate(SpringRepeat.java:72)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.runChild(SpringJUnit4ClassRunner.java:233)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.runChild(SpringJUnit4ClassRunner.java:87)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:238)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:63)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:236)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:53)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:229)
+	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:26)
+	at org.springframework.test.context.junit4.statements.RunBeforeTestClassCallbacks.evaluate(RunBeforeTestClassCallbacks.java:61)
+	at org.springframework.test.context.junit4.statements.RunAfterTestClassCallbacks.evaluate(RunAfterTestClassCallbacks.java:71)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:309)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.run(SpringJUnit4ClassRunner.java:176)
+	at org.gradle.api.internal.tasks.testing.junit.JUnitTestClassExecuter.runTestClass(JUnitTestClassExecuter.java:86)
+	at org.gradle.api.internal.tasks.testing.junit.JUnitTestClassExecuter.execute(JUnitTestClassExecuter.java:49)
+	at org.gradle.api.internal.tasks.testing.junit.JUnitTestClassProcessor.processTestClass(JUnitTestClassProcessor.java:64)
+	at org.gradle.api.internal.tasks.testing.SuiteTestClassProcessor.processTestClass(SuiteTestClassProcessor.java:50)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at org.gradle.messaging.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:35)
+	at org.gradle.messaging.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:24)
+	at org.gradle.messaging.dispatch.ContextClassLoaderDispatch.dispatch(ContextClassLoaderDispatch.java:32)
+	at org.gradle.messaging.dispatch.ProxyDispatchAdapter$DispatchingInvocationHandler.invoke(ProxyDispatchAdapter.java:93)
+	at com.sun.proxy.$Proxy2.processTestClass(Unknown Source)
+	at org.gradle.api.internal.tasks.testing.worker.TestWorker.processTestClass(TestWorker.java:106)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at org.gradle.messaging.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:35)
+	at org.gradle.messaging.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:24)
+	at org.gradle.messaging.remote.internal.hub.MessageHub$Handler.run(MessageHub.java:360)
+	at org.gradle.internal.concurrent.DefaultExecutorFactory$StoppableExecutorImpl$1.run(DefaultExecutorFactory.java:64)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:745)
+SalesData.salesinvoicenbr may not be null
+java.lang.SecurityException: SalesData.salesinvoicenbr may not be null
+	at com.athena.server.pluggable.utils.helper.EntityValidatorHelper.validateEntity(EntityValidatorHelper.java:37)
+	at com.sales.app.shared.salesboundedcontext.sales.SalesData.isValid(SalesData.java:346)
+	at com.sales.app.server.service.salesboundedcontext.sales.SalesDataTestCase.validateSalesData(SalesDataTestCase.java:360)
+	at com.sales.app.server.service.salesboundedcontext.sales.SalesDataTestCase.test5NegativeTesting(SalesDataTestCase.java:426)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:47)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:44)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:26)
+	at org.springframework.test.context.junit4.statements.RunBeforeTestMethodCallbacks.evaluate(RunBeforeTestMethodCallbacks.java:74)
+	at org.junit.internal.runners.statements.RunAfters.evaluate(RunAfters.java:27)
+	at org.springframework.test.context.junit4.statements.RunAfterTestMethodCallbacks.evaluate(RunAfterTestMethodCallbacks.java:83)
+	at org.springframework.test.context.junit4.statements.SpringRepeat.evaluate(SpringRepeat.java:72)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.runChild(SpringJUnit4ClassRunner.java:233)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.runChild(SpringJUnit4ClassRunner.java:87)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:238)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:63)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:236)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:53)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:229)
+	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:26)
+	at org.springframework.test.context.junit4.statements.RunBeforeTestClassCallbacks.evaluate(RunBeforeTestClassCallbacks.java:61)
+	at org.springframework.test.context.junit4.statements.RunAfterTestClassCallbacks.evaluate(RunAfterTestClassCallbacks.java:71)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:309)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.run(SpringJUnit4ClassRunner.java:176)
+	at org.gradle.api.internal.tasks.testing.junit.JUnitTestClassExecuter.runTestClass(JUnitTestClassExecuter.java:86)
+	at org.gradle.api.internal.tasks.testing.junit.JUnitTestClassExecuter.execute(JUnitTestClassExecuter.java:49)
+	at org.gradle.api.internal.tasks.testing.junit.JUnitTestClassProcessor.processTestClass(JUnitTestClassProcessor.java:64)
+	at org.gradle.api.internal.tasks.testing.SuiteTestClassProcessor.processTestClass(SuiteTestClassProcessor.java:50)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at org.gradle.messaging.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:35)
+	at org.gradle.messaging.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:24)
+	at org.gradle.messaging.dispatch.ContextClassLoaderDispatch.dispatch(ContextClassLoaderDispatch.java:32)
+	at org.gradle.messaging.dispatch.ProxyDispatchAdapter$DispatchingInvocationHandler.invoke(ProxyDispatchAdapter.java:93)
+	at com.sun.proxy.$Proxy2.processTestClass(Unknown Source)
+	at org.gradle.api.internal.tasks.testing.worker.TestWorker.processTestClass(TestWorker.java:106)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at org.gradle.messaging.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:35)
+	at org.gradle.messaging.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:24)
+	at org.gradle.messaging.remote.internal.hub.MessageHub$Handler.run(MessageHub.java:360)
+	at org.gradle.internal.concurrent.DefaultExecutorFactory$StoppableExecutorImpl$1.run(DefaultExecutorFactory.java:64)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:745)
+SalesData.salesinvoicenbr size must be between 0 and 64
+java.lang.SecurityException: SalesData.salesinvoicenbr size must be between 0 and 64
+	at com.athena.server.pluggable.utils.helper.EntityValidatorHelper.validateEntity(EntityValidatorHelper.java:37)
+	at com.sales.app.shared.salesboundedcontext.sales.SalesData.isValid(SalesData.java:346)
+	at com.sales.app.server.service.salesboundedcontext.sales.SalesDataTestCase.validateSalesData(SalesDataTestCase.java:358)
+	at com.sales.app.server.service.salesboundedcontext.sales.SalesDataTestCase.test5NegativeTesting(SalesDataTestCase.java:431)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:47)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:44)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:26)
+	at org.springframework.test.context.junit4.statements.RunBeforeTestMethodCallbacks.evaluate(RunBeforeTestMethodCallbacks.java:74)
+	at org.junit.internal.runners.statements.RunAfters.evaluate(RunAfters.java:27)
+	at org.springframework.test.context.junit4.statements.RunAfterTestMethodCallbacks.evaluate(RunAfterTestMethodCallbacks.java:83)
+	at org.springframework.test.context.junit4.statements.SpringRepeat.evaluate(SpringRepeat.java:72)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.runChild(SpringJUnit4ClassRunner.java:233)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.runChild(SpringJUnit4ClassRunner.java:87)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:238)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:63)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:236)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:53)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:229)
+	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:26)
+	at org.springframework.test.context.junit4.statements.RunBeforeTestClassCallbacks.evaluate(RunBeforeTestClassCallbacks.java:61)
+	at org.springframework.test.context.junit4.statements.RunAfterTestClassCallbacks.evaluate(RunAfterTestClassCallbacks.java:71)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:309)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.run(SpringJUnit4ClassRunner.java:176)
+	at org.gradle.api.internal.tasks.testing.junit.JUnitTestClassExecuter.runTestClass(JUnitTestClassExecuter.java:86)
+	at org.gradle.api.internal.tasks.testing.junit.JUnitTestClassExecuter.execute(JUnitTestClassExecuter.java:49)
+	at org.gradle.api.internal.tasks.testing.junit.JUnitTestClassProcessor.processTestClass(JUnitTestClassProcessor.java:64)
+	at org.gradle.api.internal.tasks.testing.SuiteTestClassProcessor.processTestClass(SuiteTestClassProcessor.java:50)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at org.gradle.messaging.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:35)
+	at org.gradle.messaging.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:24)
+	at org.gradle.messaging.dispatch.ContextClassLoaderDispatch.dispatch(ContextClassLoaderDispatch.java:32)
+	at org.gradle.messaging.dispatch.ProxyDispatchAdapter$DispatchingInvocationHandler.invoke(ProxyDispatchAdapter.java:93)
+	at com.sun.proxy.$Proxy2.processTestClass(Unknown Source)
+	at org.gradle.api.internal.tasks.testing.worker.TestWorker.processTestClass(TestWorker.java:106)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at org.gradle.messaging.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:35)
+	at org.gradle.messaging.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:24)
+	at org.gradle.messaging.remote.internal.hub.MessageHub$Handler.run(MessageHub.java:360)
+	at org.gradle.internal.concurrent.DefaultExecutorFactory$StoppableExecutorImpl$1.run(DefaultExecutorFactory.java:64)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:745)
+SalesData.materialdescription size must be between 1 and 64
+java.lang.SecurityException: SalesData.materialdescription size must be between 1 and 64
+	at com.athena.server.pluggable.utils.helper.EntityValidatorHelper.validateEntity(EntityValidatorHelper.java:37)
+	at com.sales.app.shared.salesboundedcontext.sales.SalesData.isValid(SalesData.java:346)
+	at com.sales.app.server.service.salesboundedcontext.sales.SalesDataTestCase.validateSalesData(SalesDataTestCase.java:358)
+	at com.sales.app.server.service.salesboundedcontext.sales.SalesDataTestCase.test5NegativeTesting(SalesDataTestCase.java:436)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:47)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:44)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:26)
+	at org.springframework.test.context.junit4.statements.RunBeforeTestMethodCallbacks.evaluate(RunBeforeTestMethodCallbacks.java:74)
+	at org.junit.internal.runners.statements.RunAfters.evaluate(RunAfters.java:27)
+	at org.springframework.test.context.junit4.statements.RunAfterTestMethodCallbacks.evaluate(RunAfterTestMethodCallbacks.java:83)
+	at org.springframework.test.context.junit4.statements.SpringRepeat.evaluate(SpringRepeat.java:72)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.runChild(SpringJUnit4ClassRunner.java:233)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.runChild(SpringJUnit4ClassRunner.java:87)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:238)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:63)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:236)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:53)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:229)
+	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:26)
+	at org.springframework.test.context.junit4.statements.RunBeforeTestClassCallbacks.evaluate(RunBeforeTestClassCallbacks.java:61)
+	at org.springframework.test.context.junit4.statements.RunAfterTestClassCallbacks.evaluate(RunAfterTestClassCallbacks.java:71)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:309)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.run(SpringJUnit4ClassRunner.java:176)
+	at org.gradle.api.internal.tasks.testing.junit.JUnitTestClassExecuter.runTestClass(JUnitTestClassExecuter.java:86)
+	at org.gradle.api.internal.tasks.testing.junit.JUnitTestClassExecuter.execute(JUnitTestClassExecuter.java:49)
+	at org.gradle.api.internal.tasks.testing.junit.JUnitTestClassProcessor.processTestClass(JUnitTestClassProcessor.java:64)
+	at org.gradle.api.internal.tasks.testing.SuiteTestClassProcessor.processTestClass(SuiteTestClassProcessor.java:50)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at org.gradle.messaging.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:35)
+	at org.gradle.messaging.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:24)
+	at org.gradle.messaging.dispatch.ContextClassLoaderDispatch.dispatch(ContextClassLoaderDispatch.java:32)
+	at org.gradle.messaging.dispatch.ProxyDispatchAdapter$DispatchingInvocationHandler.invoke(ProxyDispatchAdapter.java:93)
+	at com.sun.proxy.$Proxy2.processTestClass(Unknown Source)
+	at org.gradle.api.internal.tasks.testing.worker.TestWorker.processTestClass(TestWorker.java:106)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at org.gradle.messaging.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:35)
+	at org.gradle.messaging.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:24)
+	at org.gradle.messaging.remote.internal.hub.MessageHub$Handler.run(MessageHub.java:360)
+	at org.gradle.internal.concurrent.DefaultExecutorFactory$StoppableExecutorImpl$1.run(DefaultExecutorFactory.java:64)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:745)
+SalesData.branddescription size must be between 0 and 1
+java.lang.SecurityException: SalesData.branddescription size must be between 0 and 1
+	at com.athena.server.pluggable.utils.helper.EntityValidatorHelper.validateEntity(EntityValidatorHelper.java:37)
+	at com.sales.app.shared.salesboundedcontext.sales.SalesData.isValid(SalesData.java:346)
+	at com.sales.app.server.service.salesboundedcontext.sales.SalesDataTestCase.validateSalesData(SalesDataTestCase.java:358)
+	at com.sales.app.server.service.salesboundedcontext.sales.SalesDataTestCase.test5NegativeTesting(SalesDataTestCase.java:441)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:47)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:44)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:26)
+	at org.springframework.test.context.junit4.statements.RunBeforeTestMethodCallbacks.evaluate(RunBeforeTestMethodCallbacks.java:74)
+	at org.junit.internal.runners.statements.RunAfters.evaluate(RunAfters.java:27)
+	at org.springframework.test.context.junit4.statements.RunAfterTestMethodCallbacks.evaluate(RunAfterTestMethodCallbacks.java:83)
+	at org.springframework.test.context.junit4.statements.SpringRepeat.evaluate(SpringRepeat.java:72)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.runChild(SpringJUnit4ClassRunner.java:233)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.runChild(SpringJUnit4ClassRunner.java:87)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:238)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:63)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:236)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:53)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:229)
+	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:26)
+	at org.springframework.test.context.junit4.statements.RunBeforeTestClassCallbacks.evaluate(RunBeforeTestClassCallbacks.java:61)
+	at org.springframework.test.context.junit4.statements.RunAfterTestClassCallbacks.evaluate(RunAfterTestClassCallbacks.java:71)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:309)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.run(SpringJUnit4ClassRunner.java:176)
+	at org.gradle.api.internal.tasks.testing.junit.JUnitTestClassExecuter.runTestClass(JUnitTestClassExecuter.java:86)
+	at org.gradle.api.internal.tasks.testing.junit.JUnitTestClassExecuter.execute(JUnitTestClassExecuter.java:49)
+	at org.gradle.api.internal.tasks.testing.junit.JUnitTestClassProcessor.processTestClass(JUnitTestClassProcessor.java:64)
+	at org.gradle.api.internal.tasks.testing.SuiteTestClassProcessor.processTestClass(SuiteTestClassProcessor.java:50)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at org.gradle.messaging.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:35)
+	at org.gradle.messaging.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:24)
+	at org.gradle.messaging.dispatch.ContextClassLoaderDispatch.dispatch(ContextClassLoaderDispatch.java:32)
+	at org.gradle.messaging.dispatch.ProxyDispatchAdapter$DispatchingInvocationHandler.invoke(ProxyDispatchAdapter.java:93)
+	at com.sun.proxy.$Proxy2.processTestClass(Unknown Source)
+	at org.gradle.api.internal.tasks.testing.worker.TestWorker.processTestClass(TestWorker.java:106)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at org.gradle.messaging.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:35)
+	at org.gradle.messaging.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:24)
+	at org.gradle.messaging.remote.internal.hub.MessageHub$Handler.run(MessageHub.java:360)
+	at org.gradle.internal.concurrent.DefaultExecutorFactory$StoppableExecutorImpl$1.run(DefaultExecutorFactory.java:64)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:745)
+SalesData.salesqty may not be null
+java.lang.SecurityException: SalesData.salesqty may not be null
+	at com.athena.server.pluggable.utils.helper.EntityValidatorHelper.validateEntity(EntityValidatorHelper.java:37)
+	at com.sales.app.shared.salesboundedcontext.sales.SalesData.isValid(SalesData.java:346)
+	at com.sales.app.server.service.salesboundedcontext.sales.SalesDataTestCase.validateSalesData(SalesDataTestCase.java:360)
+	at com.sales.app.server.service.salesboundedcontext.sales.SalesDataTestCase.test5NegativeTesting(SalesDataTestCase.java:447)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:47)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:44)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:26)
+	at org.springframework.test.context.junit4.statements.RunBeforeTestMethodCallbacks.evaluate(RunBeforeTestMethodCallbacks.java:74)
+	at org.junit.internal.runners.statements.RunAfters.evaluate(RunAfters.java:27)
+	at org.springframework.test.context.junit4.statements.RunAfterTestMethodCallbacks.evaluate(RunAfterTestMethodCallbacks.java:83)
+	at org.springframework.test.context.junit4.statements.SpringRepeat.evaluate(SpringRepeat.java:72)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.runChild(SpringJUnit4ClassRunner.java:233)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.runChild(SpringJUnit4ClassRunner.java:87)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:238)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:63)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:236)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:53)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:229)
+	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:26)
+	at org.springframework.test.context.junit4.statements.RunBeforeTestClassCallbacks.evaluate(RunBeforeTestClassCallbacks.java:61)
+	at org.springframework.test.context.junit4.statements.RunAfterTestClassCallbacks.evaluate(RunAfterTestClassCallbacks.java:71)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:309)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.run(SpringJUnit4ClassRunner.java:176)
+	at org.gradle.api.internal.tasks.testing.junit.JUnitTestClassExecuter.runTestClass(JUnitTestClassExecuter.java:86)
+	at org.gradle.api.internal.tasks.testing.junit.JUnitTestClassExecuter.execute(JUnitTestClassExecuter.java:49)
+	at org.gradle.api.internal.tasks.testing.junit.JUnitTestClassProcessor.processTestClass(JUnitTestClassProcessor.java:64)
+	at org.gradle.api.internal.tasks.testing.SuiteTestClassProcessor.processTestClass(SuiteTestClassProcessor.java:50)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at org.gradle.messaging.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:35)
+	at org.gradle.messaging.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:24)
+	at org.gradle.messaging.dispatch.ContextClassLoaderDispatch.dispatch(ContextClassLoaderDispatch.java:32)
+	at org.gradle.messaging.dispatch.ProxyDispatchAdapter$DispatchingInvocationHandler.invoke(ProxyDispatchAdapter.java:93)
+	at com.sun.proxy.$Proxy2.processTestClass(Unknown Source)
+	at org.gradle.api.internal.tasks.testing.worker.TestWorker.processTestClass(TestWorker.java:106)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at org.gradle.messaging.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:35)
+	at org.gradle.messaging.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:24)
+	at org.gradle.messaging.remote.internal.hub.MessageHub$Handler.run(MessageHub.java:360)
+	at org.gradle.internal.concurrent.DefaultExecutorFactory$StoppableExecutorImpl$1.run(DefaultExecutorFactory.java:64)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:745)
+SalesData.salesqty must be less than or equal to 9223372000000000000
+java.lang.SecurityException: SalesData.salesqty must be less than or equal to 9223372000000000000
+	at com.athena.server.pluggable.utils.helper.EntityValidatorHelper.validateEntity(EntityValidatorHelper.java:37)
+	at com.sales.app.shared.salesboundedcontext.sales.SalesData.isValid(SalesData.java:346)
+	at com.sales.app.server.service.salesboundedcontext.sales.SalesDataTestCase.validateSalesData(SalesDataTestCase.java:358)
+	at com.sales.app.server.service.salesboundedcontext.sales.SalesDataTestCase.test5NegativeTesting(SalesDataTestCase.java:452)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:47)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:44)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:26)
+	at org.springframework.test.context.junit4.statements.RunBeforeTestMethodCallbacks.evaluate(RunBeforeTestMethodCallbacks.java:74)
+	at org.junit.internal.runners.statements.RunAfters.evaluate(RunAfters.java:27)
+	at org.springframework.test.context.junit4.statements.RunAfterTestMethodCallbacks.evaluate(RunAfterTestMethodCallbacks.java:83)
+	at org.springframework.test.context.junit4.statements.SpringRepeat.evaluate(SpringRepeat.java:72)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.runChild(SpringJUnit4ClassRunner.java:233)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.runChild(SpringJUnit4ClassRunner.java:87)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:238)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:63)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:236)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:53)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:229)
+	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:26)
+	at org.springframework.test.context.junit4.statements.RunBeforeTestClassCallbacks.evaluate(RunBeforeTestClassCallbacks.java:61)
+	at org.springframework.test.context.junit4.statements.RunAfterTestClassCallbacks.evaluate(RunAfterTestClassCallbacks.java:71)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:309)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.run(SpringJUnit4ClassRunner.java:176)
+	at org.gradle.api.internal.tasks.testing.junit.JUnitTestClassExecuter.runTestClass(JUnitTestClassExecuter.java:86)
+	at org.gradle.api.internal.tasks.testing.junit.JUnitTestClassExecuter.execute(JUnitTestClassExecuter.java:49)
+	at org.gradle.api.internal.tasks.testing.junit.JUnitTestClassProcessor.processTestClass(JUnitTestClassProcessor.java:64)
+	at org.gradle.api.internal.tasks.testing.SuiteTestClassProcessor.processTestClass(SuiteTestClassProcessor.java:50)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at org.gradle.messaging.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:35)
+	at org.gradle.messaging.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:24)
+	at org.gradle.messaging.dispatch.ContextClassLoaderDispatch.dispatch(ContextClassLoaderDispatch.java:32)
+	at org.gradle.messaging.dispatch.ProxyDispatchAdapter$DispatchingInvocationHandler.invoke(ProxyDispatchAdapter.java:93)
+	at com.sun.proxy.$Proxy2.processTestClass(Unknown Source)
+	at org.gradle.api.internal.tasks.testing.worker.TestWorker.processTestClass(TestWorker.java:106)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at org.gradle.messaging.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:35)
+	at org.gradle.messaging.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:24)
+	at org.gradle.messaging.remote.internal.hub.MessageHub$Handler.run(MessageHub.java:360)
+	at org.gradle.internal.concurrent.DefaultExecutorFactory$StoppableExecutorImpl$1.run(DefaultExecutorFactory.java:64)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:745)
+SalesData.netsalesamt may not be null
+java.lang.SecurityException: SalesData.netsalesamt may not be null
+	at com.athena.server.pluggable.utils.helper.EntityValidatorHelper.validateEntity(EntityValidatorHelper.java:37)
+	at com.sales.app.shared.salesboundedcontext.sales.SalesData.isValid(SalesData.java:346)
+	at com.sales.app.server.service.salesboundedcontext.sales.SalesDataTestCase.validateSalesData(SalesDataTestCase.java:360)
+	at com.sales.app.server.service.salesboundedcontext.sales.SalesDataTestCase.test5NegativeTesting(SalesDataTestCase.java:458)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:47)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:44)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:26)
+	at org.springframework.test.context.junit4.statements.RunBeforeTestMethodCallbacks.evaluate(RunBeforeTestMethodCallbacks.java:74)
+	at org.junit.internal.runners.statements.RunAfters.evaluate(RunAfters.java:27)
+	at org.springframework.test.context.junit4.statements.RunAfterTestMethodCallbacks.evaluate(RunAfterTestMethodCallbacks.java:83)
+	at org.springframework.test.context.junit4.statements.SpringRepeat.evaluate(SpringRepeat.java:72)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.runChild(SpringJUnit4ClassRunner.java:233)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.runChild(SpringJUnit4ClassRunner.java:87)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:238)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:63)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:236)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:53)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:229)
+	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:26)
+	at org.springframework.test.context.junit4.statements.RunBeforeTestClassCallbacks.evaluate(RunBeforeTestClassCallbacks.java:61)
+	at org.springframework.test.context.junit4.statements.RunAfterTestClassCallbacks.evaluate(RunAfterTestClassCallbacks.java:71)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:309)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.run(SpringJUnit4ClassRunner.java:176)
+	at org.gradle.api.internal.tasks.testing.junit.JUnitTestClassExecuter.runTestClass(JUnitTestClassExecuter.java:86)
+	at org.gradle.api.internal.tasks.testing.junit.JUnitTestClassExecuter.execute(JUnitTestClassExecuter.java:49)
+	at org.gradle.api.internal.tasks.testing.junit.JUnitTestClassProcessor.processTestClass(JUnitTestClassProcessor.java:64)
+	at org.gradle.api.internal.tasks.testing.SuiteTestClassProcessor.processTestClass(SuiteTestClassProcessor.java:50)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at org.gradle.messaging.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:35)
+	at org.gradle.messaging.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:24)
+	at org.gradle.messaging.dispatch.ContextClassLoaderDispatch.dispatch(ContextClassLoaderDispatch.java:32)
+	at org.gradle.messaging.dispatch.ProxyDispatchAdapter$DispatchingInvocationHandler.invoke(ProxyDispatchAdapter.java:93)
+	at com.sun.proxy.$Proxy2.processTestClass(Unknown Source)
+	at org.gradle.api.internal.tasks.testing.worker.TestWorker.processTestClass(TestWorker.java:106)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at org.gradle.messaging.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:35)
+	at org.gradle.messaging.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:24)
+	at org.gradle.messaging.remote.internal.hub.MessageHub$Handler.run(MessageHub.java:360)
+	at org.gradle.internal.concurrent.DefaultExecutorFactory$StoppableExecutorImpl$1.run(DefaultExecutorFactory.java:64)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:745)
+SalesData.netsalesamt must be less than or equal to 9223372000000000000
+java.lang.SecurityException: SalesData.netsalesamt must be less than or equal to 9223372000000000000
+	at com.athena.server.pluggable.utils.helper.EntityValidatorHelper.validateEntity(EntityValidatorHelper.java:37)
+	at com.sales.app.shared.salesboundedcontext.sales.SalesData.isValid(SalesData.java:346)
+	at com.sales.app.server.service.salesboundedcontext.sales.SalesDataTestCase.validateSalesData(SalesDataTestCase.java:358)
+	at com.sales.app.server.service.salesboundedcontext.sales.SalesDataTestCase.test5NegativeTesting(SalesDataTestCase.java:463)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:47)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:44)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:26)
+	at org.springframework.test.context.junit4.statements.RunBeforeTestMethodCallbacks.evaluate(RunBeforeTestMethodCallbacks.java:74)
+	at org.junit.internal.runners.statements.RunAfters.evaluate(RunAfters.java:27)
+	at org.springframework.test.context.junit4.statements.RunAfterTestMethodCallbacks.evaluate(RunAfterTestMethodCallbacks.java:83)
+	at org.springframework.test.context.junit4.statements.SpringRepeat.evaluate(SpringRepeat.java:72)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.runChild(SpringJUnit4ClassRunner.java:233)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.runChild(SpringJUnit4ClassRunner.java:87)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:238)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:63)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:236)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:53)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:229)
+	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:26)
+	at org.springframework.test.context.junit4.statements.RunBeforeTestClassCallbacks.evaluate(RunBeforeTestClassCallbacks.java:61)
+	at org.springframework.test.context.junit4.statements.RunAfterTestClassCallbacks.evaluate(RunAfterTestClassCallbacks.java:71)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:309)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.run(SpringJUnit4ClassRunner.java:176)
+	at org.gradle.api.internal.tasks.testing.junit.JUnitTestClassExecuter.runTestClass(JUnitTestClassExecuter.java:86)
+	at org.gradle.api.internal.tasks.testing.junit.JUnitTestClassExecuter.execute(JUnitTestClassExecuter.java:49)
+	at org.gradle.api.internal.tasks.testing.junit.JUnitTestClassProcessor.processTestClass(JUnitTestClassProcessor.java:64)
+	at org.gradle.api.internal.tasks.testing.SuiteTestClassProcessor.processTestClass(SuiteTestClassProcessor.java:50)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at org.gradle.messaging.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:35)
+	at org.gradle.messaging.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:24)
+	at org.gradle.messaging.dispatch.ContextClassLoaderDispatch.dispatch(ContextClassLoaderDispatch.java:32)
+	at org.gradle.messaging.dispatch.ProxyDispatchAdapter$DispatchingInvocationHandler.invoke(ProxyDispatchAdapter.java:93)
+	at com.sun.proxy.$Proxy2.processTestClass(Unknown Source)
+	at org.gradle.api.internal.tasks.testing.worker.TestWorker.processTestClass(TestWorker.java:106)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at org.gradle.messaging.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:35)
+	at org.gradle.messaging.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:24)
+	at org.gradle.messaging.remote.internal.hub.MessageHub$Handler.run(MessageHub.java:360)
+	at org.gradle.internal.concurrent.DefaultExecutorFactory$StoppableExecutorImpl$1.run(DefaultExecutorFactory.java:64)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:745)
+SalesData.grosssalesamt may not be null
+java.lang.SecurityException: SalesData.grosssalesamt may not be null
+	at com.athena.server.pluggable.utils.helper.EntityValidatorHelper.validateEntity(EntityValidatorHelper.java:37)
+	at com.sales.app.shared.salesboundedcontext.sales.SalesData.isValid(SalesData.java:346)
+	at com.sales.app.server.service.salesboundedcontext.sales.SalesDataTestCase.validateSalesData(SalesDataTestCase.java:360)
+	at com.sales.app.server.service.salesboundedcontext.sales.SalesDataTestCase.test5NegativeTesting(SalesDataTestCase.java:469)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:47)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:44)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:26)
+	at org.springframework.test.context.junit4.statements.RunBeforeTestMethodCallbacks.evaluate(RunBeforeTestMethodCallbacks.java:74)
+	at org.junit.internal.runners.statements.RunAfters.evaluate(RunAfters.java:27)
+	at org.springframework.test.context.junit4.statements.RunAfterTestMethodCallbacks.evaluate(RunAfterTestMethodCallbacks.java:83)
+	at org.springframework.test.context.junit4.statements.SpringRepeat.evaluate(SpringRepeat.java:72)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.runChild(SpringJUnit4ClassRunner.java:233)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.runChild(SpringJUnit4ClassRunner.java:87)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:238)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:63)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:236)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:53)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:229)
+	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:26)
+	at org.springframework.test.context.junit4.statements.RunBeforeTestClassCallbacks.evaluate(RunBeforeTestClassCallbacks.java:61)
+	at org.springframework.test.context.junit4.statements.RunAfterTestClassCallbacks.evaluate(RunAfterTestClassCallbacks.java:71)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:309)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.run(SpringJUnit4ClassRunner.java:176)
+	at org.gradle.api.internal.tasks.testing.junit.JUnitTestClassExecuter.runTestClass(JUnitTestClassExecuter.java:86)
+	at org.gradle.api.internal.tasks.testing.junit.JUnitTestClassExecuter.execute(JUnitTestClassExecuter.java:49)
+	at org.gradle.api.internal.tasks.testing.junit.JUnitTestClassProcessor.processTestClass(JUnitTestClassProcessor.java:64)
+	at org.gradle.api.internal.tasks.testing.SuiteTestClassProcessor.processTestClass(SuiteTestClassProcessor.java:50)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at org.gradle.messaging.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:35)
+	at org.gradle.messaging.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:24)
+	at org.gradle.messaging.dispatch.ContextClassLoaderDispatch.dispatch(ContextClassLoaderDispatch.java:32)
+	at org.gradle.messaging.dispatch.ProxyDispatchAdapter$DispatchingInvocationHandler.invoke(ProxyDispatchAdapter.java:93)
+	at com.sun.proxy.$Proxy2.processTestClass(Unknown Source)
+	at org.gradle.api.internal.tasks.testing.worker.TestWorker.processTestClass(TestWorker.java:106)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at org.gradle.messaging.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:35)
+	at org.gradle.messaging.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:24)
+	at org.gradle.messaging.remote.internal.hub.MessageHub$Handler.run(MessageHub.java:360)
+	at org.gradle.internal.concurrent.DefaultExecutorFactory$StoppableExecutorImpl$1.run(DefaultExecutorFactory.java:64)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:745)
+SalesData.grosssalesamt must be less than or equal to 9223372000000000000
+java.lang.SecurityException: SalesData.grosssalesamt must be less than or equal to 9223372000000000000
+	at com.athena.server.pluggable.utils.helper.EntityValidatorHelper.validateEntity(EntityValidatorHelper.java:37)
+	at com.sales.app.shared.salesboundedcontext.sales.SalesData.isValid(SalesData.java:346)
+	at com.sales.app.server.service.salesboundedcontext.sales.SalesDataTestCase.validateSalesData(SalesDataTestCase.java:358)
+	at com.sales.app.server.service.salesboundedcontext.sales.SalesDataTestCase.test5NegativeTesting(SalesDataTestCase.java:474)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:47)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:44)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:26)
+	at org.springframework.test.context.junit4.statements.RunBeforeTestMethodCallbacks.evaluate(RunBeforeTestMethodCallbacks.java:74)
+	at org.junit.internal.runners.statements.RunAfters.evaluate(RunAfters.java:27)
+	at org.springframework.test.context.junit4.statements.RunAfterTestMethodCallbacks.evaluate(RunAfterTestMethodCallbacks.java:83)
+	at org.springframework.test.context.junit4.statements.SpringRepeat.evaluate(SpringRepeat.java:72)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.runChild(SpringJUnit4ClassRunner.java:233)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.runChild(SpringJUnit4ClassRunner.java:87)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:238)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:63)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:236)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:53)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:229)
+	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:26)
+	at org.springframework.test.context.junit4.statements.RunBeforeTestClassCallbacks.evaluate(RunBeforeTestClassCallbacks.java:61)
+	at org.springframework.test.context.junit4.statements.RunAfterTestClassCallbacks.evaluate(RunAfterTestClassCallbacks.java:71)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:309)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.run(SpringJUnit4ClassRunner.java:176)
+	at org.gradle.api.internal.tasks.testing.junit.JUnitTestClassExecuter.runTestClass(JUnitTestClassExecuter.java:86)
+	at org.gradle.api.internal.tasks.testing.junit.JUnitTestClassExecuter.execute(JUnitTestClassExecuter.java:49)
+	at org.gradle.api.internal.tasks.testing.junit.JUnitTestClassProcessor.processTestClass(JUnitTestClassProcessor.java:64)
+	at org.gradle.api.internal.tasks.testing.SuiteTestClassProcessor.processTestClass(SuiteTestClassProcessor.java:50)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at org.gradle.messaging.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:35)
+	at org.gradle.messaging.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:24)
+	at org.gradle.messaging.dispatch.ContextClassLoaderDispatch.dispatch(ContextClassLoaderDispatch.java:32)
+	at org.gradle.messaging.dispatch.ProxyDispatchAdapter$DispatchingInvocationHandler.invoke(ProxyDispatchAdapter.java:93)
+	at com.sun.proxy.$Proxy2.processTestClass(Unknown Source)
+	at org.gradle.api.internal.tasks.testing.worker.TestWorker.processTestClass(TestWorker.java:106)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at org.gradle.messaging.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:35)
+	at org.gradle.messaging.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:24)
+	at org.gradle.messaging.remote.internal.hub.MessageHub$Handler.run(MessageHub.java:360)
+	at org.gradle.internal.concurrent.DefaultExecutorFactory$StoppableExecutorImpl$1.run(DefaultExecutorFactory.java:64)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:745)
+</pre>
+</span>
+</div>
+</div>
+<div id="footer">
+<p>
+<div>
+<label class="hidden" id="label-for-line-wrapping-toggle" for="line-wrapping-toggle">Wrap lines
+<input id="line-wrapping-toggle" type="checkbox" autocomplete="off"/>
+</label>
+</div>Generated by 
+<a href="http://www.gradle.org">Gradle 2.3</a> at Jun 16, 2016 5:23:16 AM</p>
+</div>
+</div>
+</body>
+</html>
